@@ -34,7 +34,7 @@ public class JogoMemoriaPrincipal extends javax.swing.JFrame {
         btnIniciar = new javax.swing.JButton();
         cmbNivel = new javax.swing.JComboBox();
         lblNivel = new javax.swing.JLabel();
-        pnlTela1 = new javax.swing.JPanel();
+        pnlIntroducao = new javax.swing.JPanel();
         lblTela1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -91,26 +91,28 @@ public class JogoMemoriaPrincipal extends javax.swing.JFrame {
 
         jSplitPane1.setLeftComponent(pnlPrincipal);
 
+        pnlIntroducao.setPreferredSize(new java.awt.Dimension(868, 525));
+
         lblTela1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm19Tela.png"))); // NOI18N
 
-        javax.swing.GroupLayout pnlTela1Layout = new javax.swing.GroupLayout(pnlTela1);
-        pnlTela1.setLayout(pnlTela1Layout);
-        pnlTela1Layout.setHorizontalGroup(
-            pnlTela1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlTela1Layout.createSequentialGroup()
+        javax.swing.GroupLayout pnlIntroducaoLayout = new javax.swing.GroupLayout(pnlIntroducao);
+        pnlIntroducao.setLayout(pnlIntroducaoLayout);
+        pnlIntroducaoLayout.setHorizontalGroup(
+            pnlIntroducaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlIntroducaoLayout.createSequentialGroup()
                 .addContainerGap(67, Short.MAX_VALUE)
                 .addComponent(lblTela1, javax.swing.GroupLayout.PREFERRED_SIZE, 771, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(30, 30, 30))
         );
-        pnlTela1Layout.setVerticalGroup(
-            pnlTela1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(pnlTela1Layout.createSequentialGroup()
+        pnlIntroducaoLayout.setVerticalGroup(
+            pnlIntroducaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(pnlIntroducaoLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(lblTela1, javax.swing.GroupLayout.DEFAULT_SIZE, 403, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
-        jSplitPane1.setRightComponent(pnlTela1);
+        jSplitPane1.setRightComponent(pnlIntroducao);
 
         getContentPane().add(jSplitPane1, java.awt.BorderLayout.CENTER);
 
@@ -168,8 +170,8 @@ public class JogoMemoriaPrincipal extends javax.swing.JFrame {
     private javax.swing.JLabel lblNivel;
     private javax.swing.JLabel lblTela1;
     private javax.swing.JLabel lblTempo;
+    private javax.swing.JPanel pnlIntroducao;
     private javax.swing.JPanel pnlPrincipal;
-    private javax.swing.JPanel pnlTela1;
     private javax.swing.JSpinner spnTempo;
     // End of variables declaration//GEN-END:variables
 }
