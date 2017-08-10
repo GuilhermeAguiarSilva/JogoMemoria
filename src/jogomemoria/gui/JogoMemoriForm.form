@@ -150,112 +150,112 @@
     <Component class="javax.swing.JLabel" name="jLabel9">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/6.jpg"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jm6.jpg"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/1.png"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jm1.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel13">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/3.jpg"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jm3.jpg"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel6">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/4.jpg"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jm4.jpg"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel2">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/5.png"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jm5.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel7">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/4.jpg"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jm4.jpg"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel3">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/5.png"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jm5.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel10">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/8.jpg"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jm8.jpg"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel4">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/2.png"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jm2.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel8">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/7.jpg"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jm7.jpg"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel11">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/7.jpg"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jm7.jpg"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel15">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/4.jpg"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jm4.jpg"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel12">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/6.jpg"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jm6.jpg"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel14">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/3.jpg"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jm3.jpg"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel16">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/8.jpg"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jm8.jpg"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel17">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/2.png"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jm2.png"/>
         </Property>
       </Properties>
     </Component>
