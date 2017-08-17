@@ -23,7 +23,7 @@
 
   <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
   <SubComponents>
-    <Container class="javax.swing.JSplitPane" name="jSplitPane1">
+    <Container class="javax.swing.JSplitPane" name="sppPrincipal">
       <Properties>
         <Property name="orientation" type="int" value="0"/>
       </Properties>
@@ -98,7 +98,7 @@
                   <StringArray count="3">
                     <StringItem index="0" value="Iniciante"/>
                     <StringItem index="1" value="Intermedi&#xe1;rio"/>
-                    <StringItem index="2" value="Try Harder"/>
+                    <StringItem index="2" value="Dif&#xed;cil"/>
                   </StringArray>
                 </Property>
               </Properties>

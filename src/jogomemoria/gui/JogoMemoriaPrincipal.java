@@ -10,7 +10,9 @@ package jogomemoria.gui;
  * @author Aluno
  */
 public class JogoMemoriaPrincipal extends javax.swing.JFrame {
-
+    private JogoMemoriaIniciante jpf = new JogoMemoriaIniciante();
+    private JogoMemoriaIntermediario1 jpi = new JogoMemoriaIntermediario1();
+    private JogoMemoriaDificil jpd = new JogoMemoriaDificil();
     /**
      * Creates new form JogoMemoriaForm
      */
@@ -27,7 +29,7 @@ public class JogoMemoriaPrincipal extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jSplitPane1 = new javax.swing.JSplitPane();
+        sppPrincipal = new javax.swing.JSplitPane();
         pnlPrincipal = new javax.swing.JPanel();
         lblTempo = new javax.swing.JLabel();
         spnTempo = new javax.swing.JSpinner();
@@ -40,7 +42,7 @@ public class JogoMemoriaPrincipal extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jSplitPane1.setOrientation(javax.swing.JSplitPane.VERTICAL_SPLIT);
+        sppPrincipal.setOrientation(javax.swing.JSplitPane.VERTICAL_SPLIT);
 
         lblTempo.setText("Tempo Limite:");
 
@@ -51,7 +53,7 @@ public class JogoMemoriaPrincipal extends javax.swing.JFrame {
             }
         });
 
-        cmbNivel.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Iniciante", "Intermediário", "Try Harder" }));
+        cmbNivel.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Iniciante", "Intermediário", "Difícil" }));
         cmbNivel.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 cmbNivelActionPerformed(evt);
@@ -90,7 +92,7 @@ public class JogoMemoriaPrincipal extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jSplitPane1.setLeftComponent(pnlPrincipal);
+        sppPrincipal.setLeftComponent(pnlPrincipal);
 
         pnlIntroducao.setPreferredSize(new java.awt.Dimension(868, 525));
 
@@ -120,19 +122,34 @@ public class JogoMemoriaPrincipal extends javax.swing.JFrame {
                 .addComponent(lblTela1, javax.swing.GroupLayout.PREFERRED_SIZE, 418, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
-        jSplitPane1.setRightComponent(pnlIntroducao);
+        sppPrincipal.setRightComponent(pnlIntroducao);
 
-        getContentPane().add(jSplitPane1, java.awt.BorderLayout.CENTER);
+        getContentPane().add(sppPrincipal, java.awt.BorderLayout.CENTER);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnIniciarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnIniciarActionPerformed
-        // TODO add your handling code here:
+              String op = (String) cmbNivel.getSelectedItem();
+            if (op.equals("Iniciante")) {
+                sppPrincipal.setRightComponent(jpf);
+                this.setSize(800, 800);
+            }
+            if (((String) cmbNivel.getSelectedItem()).equals("Intermediário")){ 
+                sppPrincipal.setRightComponent(jpi);
+                this.setSize(800, 800);
+            }
+            if (op.equals("Difícil")){ 
+                sppPrincipal.setRightComponent(jpd);
+                this.setSize(800, 800);
+            }    
+            this.repaint();
+            
+     
     }//GEN-LAST:event_btnIniciarActionPerformed
 
     private void cmbNivelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmbNivelActionPerformed
-        // TODO add your handling code here:
+    
     }//GEN-LAST:event_cmbNivelActionPerformed
 
     /**
@@ -175,12 +192,12 @@ public class JogoMemoriaPrincipal extends javax.swing.JFrame {
     private javax.swing.JButton btnIniciar;
     private javax.swing.JComboBox cmbNivel;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JSplitPane jSplitPane1;
     private javax.swing.JLabel lblNivel;
     private javax.swing.JLabel lblTela1;
     private javax.swing.JLabel lblTempo;
     private javax.swing.JPanel pnlIntroducao;
     private javax.swing.JPanel pnlPrincipal;
     private javax.swing.JSpinner spnTempo;
+    private javax.swing.JSplitPane sppPrincipal;
     // End of variables declaration//GEN-END:variables
 }
