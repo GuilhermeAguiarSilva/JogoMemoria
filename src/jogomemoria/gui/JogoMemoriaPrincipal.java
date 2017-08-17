@@ -11,7 +11,7 @@ package jogomemoria.gui;
  */
 public class JogoMemoriaPrincipal extends javax.swing.JFrame {
     private JogoMemoriaIniciante jpf = new JogoMemoriaIniciante();
-    private JogoMemoriaIntermediario1 jpi = new JogoMemoriaIntermediario1();
+    private JogoMemoriaIntermediario jpi = new JogoMemoriaIntermediario();
     private JogoMemoriaDificil jpd = new JogoMemoriaDificil();
     /**
      * Creates new form JogoMemoriaForm
