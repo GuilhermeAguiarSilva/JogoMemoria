@@ -27,605 +27,516 @@ public class JogoMemoriaIntermediario2 extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
-        jLabel7 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
-        jLabel9 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
-        jLabel11 = new javax.swing.JLabel();
-        jLabel12 = new javax.swing.JLabel();
-        jLabel13 = new javax.swing.JLabel();
-        jLabel14 = new javax.swing.JLabel();
-        jLabel15 = new javax.swing.JLabel();
-        jLabel16 = new javax.swing.JLabel();
-        jLabel17 = new javax.swing.JLabel();
-        jLabel18 = new javax.swing.JLabel();
-        jLabel19 = new javax.swing.JLabel();
-        jLabel20 = new javax.swing.JLabel();
-        jLabel21 = new javax.swing.JLabel();
-        jLabel22 = new javax.swing.JLabel();
-        jLabel23 = new javax.swing.JLabel();
-        jLabel24 = new javax.swing.JLabel();
-        jLabel25 = new javax.swing.JLabel();
-        jLabel26 = new javax.swing.JLabel();
-        jLabel27 = new javax.swing.JLabel();
-        jLabel28 = new javax.swing.JLabel();
-        jLabel29 = new javax.swing.JLabel();
-        jLabel30 = new javax.swing.JLabel();
-        jLabel31 = new javax.swing.JLabel();
-        jLabel32 = new javax.swing.JLabel();
-        jLabel33 = new javax.swing.JLabel();
-        jLabel34 = new javax.swing.JLabel();
-        jLabel35 = new javax.swing.JLabel();
-        jLabel36 = new javax.swing.JLabel();
+        lblimg1 = new javax.swing.JLabel();
+        lblimg2 = new javax.swing.JLabel();
+        lblimg7 = new javax.swing.JLabel();
+        lblimg3 = new javax.swing.JLabel();
+        lblimg4 = new javax.swing.JLabel();
+        lblimg5 = new javax.swing.JLabel();
+        lblimg6 = new javax.swing.JLabel();
+        lblimg8 = new javax.swing.JLabel();
+        lblimg9 = new javax.swing.JLabel();
+        lblimg10 = new javax.swing.JLabel();
+        lblimg11 = new javax.swing.JLabel();
+        lblimg12 = new javax.swing.JLabel();
+        lblimg13 = new javax.swing.JLabel();
+        lblimg19 = new javax.swing.JLabel();
+        lblimg25 = new javax.swing.JLabel();
+        lblimg31 = new javax.swing.JLabel();
+        lblimg14 = new javax.swing.JLabel();
+        lblimg15 = new javax.swing.JLabel();
+        lblimg16 = new javax.swing.JLabel();
+        lblimg17 = new javax.swing.JLabel();
+        lblimg18 = new javax.swing.JLabel();
+        lblimg20 = new javax.swing.JLabel();
+        lblimg21 = new javax.swing.JLabel();
+        lblimg22 = new javax.swing.JLabel();
+        lblimg23 = new javax.swing.JLabel();
+        lblimg24 = new javax.swing.JLabel();
+        lblimg26 = new javax.swing.JLabel();
+        lblimg27 = new javax.swing.JLabel();
+        lblimg28 = new javax.swing.JLabel();
+        lblimg29 = new javax.swing.JLabel();
+        lblimg30 = new javax.swing.JLabel();
+        lblimg32 = new javax.swing.JLabel();
+        lblimg33 = new javax.swing.JLabel();
+        lblimg34 = new javax.swing.JLabel();
+        lblimg35 = new javax.swing.JLabel();
+        lblimg36 = new javax.swing.JLabel();
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
-        jLabel1.addMouseListener(new java.awt.event.MouseAdapter() {
+        setPreferredSize(new java.awt.Dimension(690, 610));
+        setLayout(new java.awt.GridLayout(6, 6));
+
+        lblimg1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
+        lblimg1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel1MouseClicked(evt);
+                lblimg1MouseClicked(evt);
             }
         });
+        add(lblimg1);
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
-        jLabel2.addMouseListener(new java.awt.event.MouseAdapter() {
+        lblimg2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
+        lblimg2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel2MouseClicked(evt);
+                lblimg2MouseClicked(evt);
             }
         });
+        add(lblimg2);
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
-        jLabel3.addMouseListener(new java.awt.event.MouseAdapter() {
+        lblimg7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
+        lblimg7.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel3MouseClicked(evt);
+                lblimg7MouseClicked(evt);
             }
         });
+        add(lblimg7);
 
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
-        jLabel4.addMouseListener(new java.awt.event.MouseAdapter() {
+        lblimg3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
+        lblimg3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel4MouseClicked(evt);
+                lblimg3MouseClicked(evt);
             }
         });
+        add(lblimg3);
 
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
-        jLabel5.addMouseListener(new java.awt.event.MouseAdapter() {
+        lblimg4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
+        lblimg4.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel5MouseClicked(evt);
+                lblimg4MouseClicked(evt);
             }
         });
+        add(lblimg4);
 
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
-        jLabel6.addMouseListener(new java.awt.event.MouseAdapter() {
+        lblimg5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
+        lblimg5.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel6MouseClicked(evt);
+                lblimg5MouseClicked(evt);
             }
         });
+        add(lblimg5);
 
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
-        jLabel7.addMouseListener(new java.awt.event.MouseAdapter() {
+        lblimg6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
+        lblimg6.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel7MouseClicked(evt);
+                lblimg6MouseClicked(evt);
             }
         });
+        add(lblimg6);
 
-        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
-        jLabel8.addMouseListener(new java.awt.event.MouseAdapter() {
+        lblimg8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
+        lblimg8.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel8MouseClicked(evt);
+                lblimg8MouseClicked(evt);
             }
         });
+        add(lblimg8);
 
-        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
-        jLabel9.addMouseListener(new java.awt.event.MouseAdapter() {
+        lblimg9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
+        lblimg9.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel9MouseClicked(evt);
+                lblimg9MouseClicked(evt);
             }
         });
+        add(lblimg9);
 
-        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
-        jLabel10.addMouseListener(new java.awt.event.MouseAdapter() {
+        lblimg10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
+        lblimg10.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel10MouseClicked(evt);
+                lblimg10MouseClicked(evt);
             }
         });
+        add(lblimg10);
 
-        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
-        jLabel11.addMouseListener(new java.awt.event.MouseAdapter() {
+        lblimg11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
+        lblimg11.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel11MouseClicked(evt);
+                lblimg11MouseClicked(evt);
             }
         });
+        add(lblimg11);
 
-        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
-        jLabel12.addMouseListener(new java.awt.event.MouseAdapter() {
+        lblimg12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
+        lblimg12.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel12MouseClicked(evt);
+                lblimg12MouseClicked(evt);
             }
         });
+        add(lblimg12);
 
-        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
-        jLabel13.addMouseListener(new java.awt.event.MouseAdapter() {
+        lblimg13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
+        lblimg13.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel13MouseClicked(evt);
+                lblimg13MouseClicked(evt);
             }
         });
+        add(lblimg13);
 
-        jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
-        jLabel14.addMouseListener(new java.awt.event.MouseAdapter() {
+        lblimg19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
+        lblimg19.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel14MouseClicked(evt);
+                lblimg19MouseClicked(evt);
             }
         });
+        add(lblimg19);
 
-        jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
-        jLabel15.addMouseListener(new java.awt.event.MouseAdapter() {
+        lblimg25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
+        lblimg25.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel15MouseClicked(evt);
+                lblimg25MouseClicked(evt);
             }
         });
+        add(lblimg25);
 
-        jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
-        jLabel16.addMouseListener(new java.awt.event.MouseAdapter() {
+        lblimg31.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
+        lblimg31.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel16MouseClicked(evt);
+                lblimg31MouseClicked(evt);
             }
         });
+        add(lblimg31);
 
-        jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
-        jLabel17.addMouseListener(new java.awt.event.MouseAdapter() {
+        lblimg14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
+        lblimg14.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel17MouseClicked(evt);
+                lblimg14MouseClicked(evt);
             }
         });
+        add(lblimg14);
 
-        jLabel18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
-        jLabel18.addMouseListener(new java.awt.event.MouseAdapter() {
+        lblimg15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
+        lblimg15.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel18MouseClicked(evt);
+                lblimg15MouseClicked(evt);
             }
         });
+        add(lblimg15);
 
-        jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
-        jLabel19.addMouseListener(new java.awt.event.MouseAdapter() {
+        lblimg16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
+        lblimg16.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel19MouseClicked(evt);
+                lblimg16MouseClicked(evt);
             }
         });
+        add(lblimg16);
 
-        jLabel20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
-        jLabel20.addMouseListener(new java.awt.event.MouseAdapter() {
+        lblimg17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
+        lblimg17.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel20MouseClicked(evt);
+                lblimg17MouseClicked(evt);
             }
         });
+        add(lblimg17);
 
-        jLabel21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
-        jLabel21.addMouseListener(new java.awt.event.MouseAdapter() {
+        lblimg18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
+        lblimg18.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel21MouseClicked(evt);
+                lblimg18MouseClicked(evt);
             }
         });
+        add(lblimg18);
 
-        jLabel22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
-        jLabel22.addMouseListener(new java.awt.event.MouseAdapter() {
+        lblimg20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
+        lblimg20.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel22MouseClicked(evt);
+                lblimg20MouseClicked(evt);
             }
         });
+        add(lblimg20);
 
-        jLabel23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
-        jLabel23.addMouseListener(new java.awt.event.MouseAdapter() {
+        lblimg21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
+        lblimg21.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel23MouseClicked(evt);
+                lblimg21MouseClicked(evt);
             }
         });
+        add(lblimg21);
 
-        jLabel24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
-        jLabel24.addMouseListener(new java.awt.event.MouseAdapter() {
+        lblimg22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
+        lblimg22.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel24MouseClicked(evt);
+                lblimg22MouseClicked(evt);
             }
         });
+        add(lblimg22);
 
-        jLabel25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
-        jLabel25.addMouseListener(new java.awt.event.MouseAdapter() {
+        lblimg23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
+        lblimg23.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel25MouseClicked(evt);
+                lblimg23MouseClicked(evt);
             }
         });
+        add(lblimg23);
 
-        jLabel26.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
-        jLabel26.addMouseListener(new java.awt.event.MouseAdapter() {
+        lblimg24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
+        lblimg24.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel26MouseClicked(evt);
+                lblimg24MouseClicked(evt);
             }
         });
+        add(lblimg24);
 
-        jLabel27.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
-        jLabel27.addMouseListener(new java.awt.event.MouseAdapter() {
+        lblimg26.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
+        lblimg26.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel27MouseClicked(evt);
+                lblimg26MouseClicked(evt);
             }
         });
+        add(lblimg26);
 
-        jLabel28.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
-        jLabel28.addMouseListener(new java.awt.event.MouseAdapter() {
+        lblimg27.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
+        lblimg27.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel28MouseClicked(evt);
+                lblimg27MouseClicked(evt);
             }
         });
+        add(lblimg27);
 
-        jLabel29.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
-        jLabel29.addMouseListener(new java.awt.event.MouseAdapter() {
+        lblimg28.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
+        lblimg28.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel29MouseClicked(evt);
+                lblimg28MouseClicked(evt);
             }
         });
+        add(lblimg28);
 
-        jLabel30.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
-        jLabel30.addMouseListener(new java.awt.event.MouseAdapter() {
+        lblimg29.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
+        lblimg29.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel30MouseClicked(evt);
+                lblimg29MouseClicked(evt);
             }
         });
+        add(lblimg29);
 
-        jLabel31.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
-        jLabel31.addMouseListener(new java.awt.event.MouseAdapter() {
+        lblimg30.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
+        lblimg30.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel31MouseClicked(evt);
+                lblimg30MouseClicked(evt);
             }
         });
+        add(lblimg30);
 
-        jLabel32.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
-        jLabel32.addMouseListener(new java.awt.event.MouseAdapter() {
+        lblimg32.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
+        lblimg32.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel32MouseClicked(evt);
+                lblimg32MouseClicked(evt);
             }
         });
+        add(lblimg32);
 
-        jLabel33.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
-        jLabel33.addMouseListener(new java.awt.event.MouseAdapter() {
+        lblimg33.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
+        lblimg33.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel33MouseClicked(evt);
+                lblimg33MouseClicked(evt);
             }
         });
+        add(lblimg33);
 
-        jLabel34.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
-        jLabel34.addMouseListener(new java.awt.event.MouseAdapter() {
+        lblimg34.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
+        lblimg34.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel34MouseClicked(evt);
+                lblimg34MouseClicked(evt);
             }
         });
+        add(lblimg34);
 
-        jLabel35.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
-        jLabel35.addMouseListener(new java.awt.event.MouseAdapter() {
+        lblimg35.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
+        lblimg35.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel35MouseClicked(evt);
+                lblimg35MouseClicked(evt);
             }
         });
+        add(lblimg35);
 
-        jLabel36.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
-        jLabel36.addMouseListener(new java.awt.event.MouseAdapter() {
+        lblimg36.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
+        lblimg36.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel36MouseClicked(evt);
+                lblimg36MouseClicked(evt);
             }
         });
-
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
-        this.setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                            .addComponent(jLabel14, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jLabel15, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                        .addGap(18, 18, 18)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel27, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabel22, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(0, 0, Short.MAX_VALUE))))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(layout.createSequentialGroup()
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addGap(18, 18, 18)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel17, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(jLabel8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(jLabel32, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                        .addGap(0, 0, Short.MAX_VALUE)))
-                .addGap(18, 18, Short.MAX_VALUE)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel18, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel23, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel28, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel33, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jLabel29, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel24, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel19, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel34, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jLabel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel11, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel20, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel25, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel30, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel35, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addGap(27, 27, 27)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                    .addComponent(jLabel7, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel12, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel21, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel26, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel31, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel36, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addGap(166, 166, 166))
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jLabel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jLabel7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                        .addGap(0, 0, Short.MAX_VALUE)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel11, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel12, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jLabel21, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel20, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel13, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel18, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel19, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel17, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jLabel26, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel14, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel22, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel23, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel25, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel24, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(jLabel30, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(jLabel31, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(jLabel28, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel27, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel15, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel29, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jLabel16, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel32, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel33, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel34, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel35, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel36, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addGap(301, 301, 301))
-        );
+        add(lblimg36);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jLabel1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel1MouseClicked
+    private void lblimg1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg1MouseClicked
         // TODO add your handling code here:
-    }//GEN-LAST:event_jLabel1MouseClicked
+    }//GEN-LAST:event_lblimg1MouseClicked
 
-    private void jLabel2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel2MouseClicked
+    private void lblimg2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg2MouseClicked
         // TODO add your handling code here:
-    }//GEN-LAST:event_jLabel2MouseClicked
+    }//GEN-LAST:event_lblimg2MouseClicked
 
-    private void jLabel4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel4MouseClicked
+    private void lblimg3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg3MouseClicked
         // TODO add your handling code here:
-    }//GEN-LAST:event_jLabel4MouseClicked
+    }//GEN-LAST:event_lblimg3MouseClicked
 
-    private void jLabel5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel5MouseClicked
+    private void lblimg4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg4MouseClicked
         // TODO add your handling code here:
-    }//GEN-LAST:event_jLabel5MouseClicked
+    }//GEN-LAST:event_lblimg4MouseClicked
 
-    private void jLabel6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel6MouseClicked
+    private void lblimg5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg5MouseClicked
         // TODO add your handling code here:
-    }//GEN-LAST:event_jLabel6MouseClicked
+    }//GEN-LAST:event_lblimg5MouseClicked
 
-    private void jLabel7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel7MouseClicked
+    private void lblimg6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg6MouseClicked
         // TODO add your handling code here:
-    }//GEN-LAST:event_jLabel7MouseClicked
+    }//GEN-LAST:event_lblimg6MouseClicked
 
-    private void jLabel3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel3MouseClicked
+    private void lblimg7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg7MouseClicked
         // TODO add your handling code here:
-    }//GEN-LAST:event_jLabel3MouseClicked
+    }//GEN-LAST:event_lblimg7MouseClicked
 
-    private void jLabel8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel8MouseClicked
+    private void lblimg8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg8MouseClicked
         // TODO add your handling code here:
-    }//GEN-LAST:event_jLabel8MouseClicked
+    }//GEN-LAST:event_lblimg8MouseClicked
 
-    private void jLabel9MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel9MouseClicked
+    private void lblimg9MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg9MouseClicked
         // TODO add your handling code here:
-    }//GEN-LAST:event_jLabel9MouseClicked
+    }//GEN-LAST:event_lblimg9MouseClicked
 
-    private void jLabel10MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel10MouseClicked
+    private void lblimg10MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg10MouseClicked
         // TODO add your handling code here:
-    }//GEN-LAST:event_jLabel10MouseClicked
+    }//GEN-LAST:event_lblimg10MouseClicked
 
-    private void jLabel11MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel11MouseClicked
+    private void lblimg11MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg11MouseClicked
         // TODO add your handling code here:
-    }//GEN-LAST:event_jLabel11MouseClicked
+    }//GEN-LAST:event_lblimg11MouseClicked
 
-    private void jLabel12MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel12MouseClicked
+    private void lblimg12MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg12MouseClicked
         // TODO add your handling code here:
-    }//GEN-LAST:event_jLabel12MouseClicked
+    }//GEN-LAST:event_lblimg12MouseClicked
 
-    private void jLabel13MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel13MouseClicked
+    private void lblimg13MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg13MouseClicked
         // TODO add your handling code here:
-    }//GEN-LAST:event_jLabel13MouseClicked
+    }//GEN-LAST:event_lblimg13MouseClicked
 
-    private void jLabel17MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel17MouseClicked
+    private void lblimg14MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg14MouseClicked
         // TODO add your handling code here:
-    }//GEN-LAST:event_jLabel17MouseClicked
+    }//GEN-LAST:event_lblimg14MouseClicked
 
-    private void jLabel18MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel18MouseClicked
+    private void lblimg15MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg15MouseClicked
         // TODO add your handling code here:
-    }//GEN-LAST:event_jLabel18MouseClicked
+    }//GEN-LAST:event_lblimg15MouseClicked
 
-    private void jLabel19MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel19MouseClicked
+    private void lblimg16MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg16MouseClicked
         // TODO add your handling code here:
-    }//GEN-LAST:event_jLabel19MouseClicked
+    }//GEN-LAST:event_lblimg16MouseClicked
 
-    private void jLabel20MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel20MouseClicked
+    private void lblimg17MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg17MouseClicked
         // TODO add your handling code here:
-    }//GEN-LAST:event_jLabel20MouseClicked
+    }//GEN-LAST:event_lblimg17MouseClicked
 
-    private void jLabel21MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel21MouseClicked
+    private void lblimg18MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg18MouseClicked
         // TODO add your handling code here:
-    }//GEN-LAST:event_jLabel21MouseClicked
+    }//GEN-LAST:event_lblimg18MouseClicked
 
-    private void jLabel14MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel14MouseClicked
+    private void lblimg19MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg19MouseClicked
         // TODO add your handling code here:
-    }//GEN-LAST:event_jLabel14MouseClicked
+    }//GEN-LAST:event_lblimg19MouseClicked
 
-    private void jLabel22MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel22MouseClicked
+    private void lblimg20MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg20MouseClicked
         // TODO add your handling code here:
-    }//GEN-LAST:event_jLabel22MouseClicked
+    }//GEN-LAST:event_lblimg20MouseClicked
 
-    private void jLabel23MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel23MouseClicked
+    private void lblimg21MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg21MouseClicked
         // TODO add your handling code here:
-    }//GEN-LAST:event_jLabel23MouseClicked
+    }//GEN-LAST:event_lblimg21MouseClicked
 
-    private void jLabel24MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel24MouseClicked
+    private void lblimg22MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg22MouseClicked
         // TODO add your handling code here:
-    }//GEN-LAST:event_jLabel24MouseClicked
+    }//GEN-LAST:event_lblimg22MouseClicked
 
-    private void jLabel25MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel25MouseClicked
+    private void lblimg23MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg23MouseClicked
         // TODO add your handling code here:
-    }//GEN-LAST:event_jLabel25MouseClicked
+    }//GEN-LAST:event_lblimg23MouseClicked
 
-    private void jLabel26MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel26MouseClicked
+    private void lblimg24MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg24MouseClicked
         // TODO add your handling code here:
-    }//GEN-LAST:event_jLabel26MouseClicked
+    }//GEN-LAST:event_lblimg24MouseClicked
 
-    private void jLabel15MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel15MouseClicked
+    private void lblimg25MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg25MouseClicked
         // TODO add your handling code here:
-    }//GEN-LAST:event_jLabel15MouseClicked
+    }//GEN-LAST:event_lblimg25MouseClicked
 
-    private void jLabel27MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel27MouseClicked
+    private void lblimg26MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg26MouseClicked
         // TODO add your handling code here:
-    }//GEN-LAST:event_jLabel27MouseClicked
+    }//GEN-LAST:event_lblimg26MouseClicked
 
-    private void jLabel28MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel28MouseClicked
+    private void lblimg27MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg27MouseClicked
         // TODO add your handling code here:
-    }//GEN-LAST:event_jLabel28MouseClicked
+    }//GEN-LAST:event_lblimg27MouseClicked
 
-    private void jLabel29MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel29MouseClicked
+    private void lblimg28MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg28MouseClicked
         // TODO add your handling code here:
-    }//GEN-LAST:event_jLabel29MouseClicked
+    }//GEN-LAST:event_lblimg28MouseClicked
 
-    private void jLabel30MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel30MouseClicked
+    private void lblimg29MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg29MouseClicked
         // TODO add your handling code here:
-    }//GEN-LAST:event_jLabel30MouseClicked
+    }//GEN-LAST:event_lblimg29MouseClicked
 
-    private void jLabel31MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel31MouseClicked
+    private void lblimg30MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg30MouseClicked
         // TODO add your handling code here:
-    }//GEN-LAST:event_jLabel31MouseClicked
+    }//GEN-LAST:event_lblimg30MouseClicked
 
-    private void jLabel16MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel16MouseClicked
+    private void lblimg31MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg31MouseClicked
         // TODO add your handling code here:
-    }//GEN-LAST:event_jLabel16MouseClicked
+    }//GEN-LAST:event_lblimg31MouseClicked
 
-    private void jLabel32MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel32MouseClicked
+    private void lblimg32MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg32MouseClicked
         // TODO add your handling code here:
-    }//GEN-LAST:event_jLabel32MouseClicked
+    }//GEN-LAST:event_lblimg32MouseClicked
 
-    private void jLabel33MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel33MouseClicked
+    private void lblimg33MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg33MouseClicked
         // TODO add your handling code here:
-    }//GEN-LAST:event_jLabel33MouseClicked
+    }//GEN-LAST:event_lblimg33MouseClicked
 
-    private void jLabel34MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel34MouseClicked
+    private void lblimg34MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg34MouseClicked
         // TODO add your handling code here:
-    }//GEN-LAST:event_jLabel34MouseClicked
+    }//GEN-LAST:event_lblimg34MouseClicked
 
-    private void jLabel35MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel35MouseClicked
+    private void lblimg35MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg35MouseClicked
         // TODO add your handling code here:
-    }//GEN-LAST:event_jLabel35MouseClicked
+    }//GEN-LAST:event_lblimg35MouseClicked
 
-    private void jLabel36MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel36MouseClicked
+    private void lblimg36MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg36MouseClicked
         // TODO add your handling code here:
-    }//GEN-LAST:event_jLabel36MouseClicked
+    }//GEN-LAST:event_lblimg36MouseClicked
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel13;
-    private javax.swing.JLabel jLabel14;
-    private javax.swing.JLabel jLabel15;
-    private javax.swing.JLabel jLabel16;
-    private javax.swing.JLabel jLabel17;
-    private javax.swing.JLabel jLabel18;
-    private javax.swing.JLabel jLabel19;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel20;
-    private javax.swing.JLabel jLabel21;
-    private javax.swing.JLabel jLabel22;
-    private javax.swing.JLabel jLabel23;
-    private javax.swing.JLabel jLabel24;
-    private javax.swing.JLabel jLabel25;
-    private javax.swing.JLabel jLabel26;
-    private javax.swing.JLabel jLabel27;
-    private javax.swing.JLabel jLabel28;
-    private javax.swing.JLabel jLabel29;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel30;
-    private javax.swing.JLabel jLabel31;
-    private javax.swing.JLabel jLabel32;
-    private javax.swing.JLabel jLabel33;
-    private javax.swing.JLabel jLabel34;
-    private javax.swing.JLabel jLabel35;
-    private javax.swing.JLabel jLabel36;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
+    private javax.swing.JLabel lblimg1;
+    private javax.swing.JLabel lblimg10;
+    private javax.swing.JLabel lblimg11;
+    private javax.swing.JLabel lblimg12;
+    private javax.swing.JLabel lblimg13;
+    private javax.swing.JLabel lblimg14;
+    private javax.swing.JLabel lblimg15;
+    private javax.swing.JLabel lblimg16;
+    private javax.swing.JLabel lblimg17;
+    private javax.swing.JLabel lblimg18;
+    private javax.swing.JLabel lblimg19;
+    private javax.swing.JLabel lblimg2;
+    private javax.swing.JLabel lblimg20;
+    private javax.swing.JLabel lblimg21;
+    private javax.swing.JLabel lblimg22;
+    private javax.swing.JLabel lblimg23;
+    private javax.swing.JLabel lblimg24;
+    private javax.swing.JLabel lblimg25;
+    private javax.swing.JLabel lblimg26;
+    private javax.swing.JLabel lblimg27;
+    private javax.swing.JLabel lblimg28;
+    private javax.swing.JLabel lblimg29;
+    private javax.swing.JLabel lblimg3;
+    private javax.swing.JLabel lblimg30;
+    private javax.swing.JLabel lblimg31;
+    private javax.swing.JLabel lblimg32;
+    private javax.swing.JLabel lblimg33;
+    private javax.swing.JLabel lblimg34;
+    private javax.swing.JLabel lblimg35;
+    private javax.swing.JLabel lblimg36;
+    private javax.swing.JLabel lblimg4;
+    private javax.swing.JLabel lblimg5;
+    private javax.swing.JLabel lblimg6;
+    private javax.swing.JLabel lblimg7;
+    private javax.swing.JLabel lblimg8;
+    private javax.swing.JLabel lblimg9;
     // End of variables declaration//GEN-END:variables
 }
