@@ -47,38 +47,118 @@ public class JogoMemoriaIniciante extends javax.swing.JPanel {
 
         pnlTabuleiroIniciante.setPreferredSize(new java.awt.Dimension(868, 425));
 
-        lblImg1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm1.png"))); // NOI18N
+        lblImg1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
+        lblImg1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                lblImg1MouseClicked(evt);
+            }
+        });
 
-        lblImg5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm2.png"))); // NOI18N
+        lblImg5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
+        lblImg5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                lblImg5MouseClicked(evt);
+            }
+        });
 
-        lblImg9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm3.jpg"))); // NOI18N
+        lblImg9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
+        lblImg9.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                lblImg9MouseClicked(evt);
+            }
+        });
 
-        lblImg13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm1.png"))); // NOI18N
+        lblImg13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
         lblImg13.setText("jLabel5");
+        lblImg13.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                lblImg13MouseClicked(evt);
+            }
+        });
 
-        lblImg2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm5.png"))); // NOI18N
+        lblImg2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
+        lblImg2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                lblImg2MouseClicked(evt);
+            }
+        });
 
-        lblImg6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm4.jpg"))); // NOI18N
+        lblImg6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
+        lblImg6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                lblImg6MouseClicked(evt);
+            }
+        });
 
-        lblImg14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm6.jpg"))); // NOI18N
+        lblImg14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
+        lblImg14.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                lblImg14MouseClicked(evt);
+            }
+        });
 
-        lblImg10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm7.jpg"))); // NOI18N
+        lblImg10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
+        lblImg10.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                lblImg10MouseClicked(evt);
+            }
+        });
 
-        lblImg3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm2.png"))); // NOI18N
+        lblImg3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
+        lblImg3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                lblImg3MouseClicked(evt);
+            }
+        });
 
-        lblImg11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm7.jpg"))); // NOI18N
+        lblImg11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
+        lblImg11.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                lblImg11MouseClicked(evt);
+            }
+        });
 
-        lblImg7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm3.jpg"))); // NOI18N
+        lblImg7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
+        lblImg7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                lblImg7MouseClicked(evt);
+            }
+        });
 
-        lblImg15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm4.jpg"))); // NOI18N
+        lblImg15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
+        lblImg15.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                lblImg15MouseClicked(evt);
+            }
+        });
 
-        lblImg4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm8.jpg"))); // NOI18N
+        lblImg4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
+        lblImg4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                lblImg4MouseClicked(evt);
+            }
+        });
 
-        lblImg8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm5.png"))); // NOI18N
+        lblImg8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
+        lblImg8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                lblImg8MouseClicked(evt);
+            }
+        });
 
-        lblImg16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm6.jpg"))); // NOI18N
+        lblImg16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
+        lblImg16.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                lblImg16MouseClicked(evt);
+            }
+        });
 
-        lblImg12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm8.jpg"))); // NOI18N
+        lblImg12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/verso.jpg"))); // NOI18N
+        lblImg12.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                lblImg12MouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout pnlTabuleiroInicianteLayout = new javax.swing.GroupLayout(pnlTabuleiroIniciante);
         pnlTabuleiroIniciante.setLayout(pnlTabuleiroInicianteLayout);
@@ -91,16 +171,13 @@ public class JogoMemoriaIniciante extends javax.swing.JPanel {
                     .addComponent(lblImg1)
                     .addComponent(lblImg9)
                     .addComponent(lblImg13, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGroup(pnlTabuleiroInicianteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(pnlTabuleiroInicianteLayout.createSequentialGroup()
-                        .addGap(62, 62, 62)
-                        .addGroup(pnlTabuleiroInicianteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(lblImg2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(lblImg6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(lblImg10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                    .addGroup(pnlTabuleiroInicianteLayout.createSequentialGroup()
-                        .addGap(51, 51, 51)
-                        .addComponent(lblImg14, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(62, 62, 62)
+                .addGroup(pnlTabuleiroInicianteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(pnlTabuleiroInicianteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addComponent(lblImg2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(lblImg6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(lblImg10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(lblImg14, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(73, 73, 73)
                 .addGroup(pnlTabuleiroInicianteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(lblImg7, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -113,50 +190,47 @@ public class JogoMemoriaIniciante extends javax.swing.JPanel {
                     .addComponent(lblImg4, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(lblImg12, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(lblImg16, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(191, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         pnlTabuleiroInicianteLayout.setVerticalGroup(
             pnlTabuleiroInicianteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(pnlTabuleiroInicianteLayout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(pnlTabuleiroInicianteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(pnlTabuleiroInicianteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(lblImg2)
-                        .addComponent(lblImg1, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(lblImg3, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(lblImg4, javax.swing.GroupLayout.PREFERRED_SIZE, 82, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGroup(pnlTabuleiroInicianteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(pnlTabuleiroInicianteLayout.createSequentialGroup()
-                        .addGap(29, 29, 29)
-                        .addGroup(pnlTabuleiroInicianteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(lblImg7, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(lblImg8, javax.swing.GroupLayout.PREFERRED_SIZE, 82, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(lblImg6)))
-                    .addGroup(pnlTabuleiroInicianteLayout.createSequentialGroup()
-                        .addGap(38, 38, 38)
-                        .addComponent(lblImg5, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(35, 35, 35)
+                    .addComponent(lblImg2)
+                    .addComponent(lblImg1, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblImg3, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblImg4, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(29, 29, 29)
+                .addGroup(pnlTabuleiroInicianteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(lblImg7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(lblImg6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(lblImg5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(lblImg8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(44, 44, 44)
                 .addGroup(pnlTabuleiroInicianteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(pnlTabuleiroInicianteLayout.createSequentialGroup()
-                        .addComponent(lblImg9, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(27, 27, 27)
-                        .addComponent(lblImg13)
-                        .addGap(0, 0, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlTabuleiroInicianteLayout.createSequentialGroup()
                         .addGroup(pnlTabuleiroInicianteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addGroup(pnlTabuleiroInicianteLayout.createSequentialGroup()
-                                .addGroup(pnlTabuleiroInicianteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(lblImg11, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(lblImg12, javax.swing.GroupLayout.PREFERRED_SIZE, 82, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGroup(pnlTabuleiroInicianteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addComponent(lblImg11, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(lblImg12, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addGroup(pnlTabuleiroInicianteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(lblImg15, javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(lblImg16, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 82, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addGroup(pnlTabuleiroInicianteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addComponent(lblImg15, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(lblImg16, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                             .addGroup(pnlTabuleiroInicianteLayout.createSequentialGroup()
-                                .addComponent(lblImg10, javax.swing.GroupLayout.DEFAULT_SIZE, 90, Short.MAX_VALUE)
+                                .addComponent(lblImg10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addGap(117, 117, 117)))
+                        .addGap(54, 54, 54))
+                    .addGroup(pnlTabuleiroInicianteLayout.createSequentialGroup()
+                        .addGroup(pnlTabuleiroInicianteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(lblImg14, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(pnlTabuleiroInicianteLayout.createSequentialGroup()
+                                .addComponent(lblImg9, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(27, 27, 27)
-                                .addComponent(lblImg14, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(54, 54, 54))))
+                                .addComponent(lblImg13)))
+                        .addGap(0, 0, Short.MAX_VALUE))))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
@@ -164,14 +238,78 @@ public class JogoMemoriaIniciante extends javax.swing.JPanel {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addComponent(pnlTabuleiroIniciante, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 20, Short.MAX_VALUE))
+                .addComponent(pnlTabuleiroIniciante, javax.swing.GroupLayout.PREFERRED_SIZE, 687, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 72, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(pnlTabuleiroIniciante, javax.swing.GroupLayout.DEFAULT_SIZE, 525, Short.MAX_VALUE)
         );
     }// </editor-fold>//GEN-END:initComponents
+
+    private void lblImg12MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblImg12MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblImg12MouseClicked
+
+    private void lblImg16MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblImg16MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblImg16MouseClicked
+
+    private void lblImg8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblImg8MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblImg8MouseClicked
+
+    private void lblImg4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblImg4MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblImg4MouseClicked
+
+    private void lblImg15MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblImg15MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblImg15MouseClicked
+
+    private void lblImg7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblImg7MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblImg7MouseClicked
+
+    private void lblImg11MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblImg11MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblImg11MouseClicked
+
+    private void lblImg3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblImg3MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblImg3MouseClicked
+
+    private void lblImg10MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblImg10MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblImg10MouseClicked
+
+    private void lblImg14MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblImg14MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblImg14MouseClicked
+
+    private void lblImg6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblImg6MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblImg6MouseClicked
+
+    private void lblImg2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblImg2MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblImg2MouseClicked
+
+    private void lblImg13MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblImg13MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblImg13MouseClicked
+
+    private void lblImg9MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblImg9MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblImg9MouseClicked
+
+    private void lblImg5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblImg5MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblImg5MouseClicked
+
+    private void lblImg1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblImg1MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblImg1MouseClicked
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

@@ -99,14 +99,15 @@ public class JogoMemoriaPrincipal extends javax.swing.JFrame {
                         .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(pnlPrincipalLayout.createSequentialGroup()
                         .addGap(21, 21, 21)
-                        .addGroup(pnlPrincipalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(lblTempo, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(spnTempo)
-                            .addComponent(cmbNivel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(lblNivel, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(pnlPrincipalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(pnlPrincipalLayout.createSequentialGroup()
                                 .addGap(12, 12, 12)
-                                .addComponent(btnIniciar, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                                .addComponent(btnIniciar, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(pnlPrincipalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                .addComponent(lblTempo, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(spnTempo)
+                                .addComponent(cmbNivel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(lblNivel, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)))))
                 .addContainerGap())
         );
 
@@ -151,7 +152,7 @@ public class JogoMemoriaPrincipal extends javax.swing.JFrame {
               String op = (String) cmbNivel.getSelectedItem();
             if (op.equals("Iniciante")) {
                 sppPrincipal.setRightComponent(jpf);
-                this.setSize(800, 800);
+                this.setSize(800, 600);
             }
             if (((String) cmbNivel.getSelectedItem()).equals("Intermediário")){ 
                 sppPrincipal.setRightComponent(jpi);
@@ -159,7 +160,7 @@ public class JogoMemoriaPrincipal extends javax.swing.JFrame {
             }
             if (op.equals("Difícil")){ 
                 sppPrincipal.setRightComponent(jpd);
-                this.setSize(800, 800);
+                this.setSize(920, 700);
             }    
             this.repaint();
             
