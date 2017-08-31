@@ -1,6 +1,7 @@
 package jogomemoria.control;
 
 import java.sql.Timestamp;
+import java.util.Random;
 import jogomemoria.model.PecaTabuleiro;
 
 public class JogoMemoriaCtrl {
@@ -74,14 +75,23 @@ public class JogoMemoriaCtrl {
         int acertosPartida = 0;
         if (nivel == 0) {
             nivel = FACIL;
+            qtdImgsPartida= QTDE_PECAS_TAB_FACIL;
         } else {
             if (nivel == 1) {
                 nivel = INTERMEDIARIO;
+                qtdImgsPartida= QTDE_PECAS_TAB_INTERMEDIARIO;
             } else {
                 if (nivel == 2) {
                     nivel = DIFICIL;
+                    qtdImgsPartida= QTDE_PECAS_TAB_DIFICIL;
                 }
             }
         }
+       Random sorteioImg = new Random();
+       for (int i = 0; i < QTDE_IMAGENS_DISPONIVEIS; i++){
+           sorteioImg.nextInt();
+           int tabuleiro [][] = {{MAX_LIN_DIFICIL},{MAX_COL_DIFICIL}};
+           int tabControle[][] = {{0},{0}};
+       }
     }
 }
