@@ -98,10 +98,26 @@ public class JogoMemoriaCtrl {
     //atividade 3
 
     private void sortearImagensPartida(int qtdImgsPartida) {
+
         for (int i = 0; i < imgsPartida.length; i++) {
-            int qtdeImgsDefinidas = qtdImgsPartida-1 ;
+            int qtdeImgsDefinidas = 0;
             imgsPartida[i] = 0;
-       
+            for (qtdeImgsDefinidas = 0; i < qtdImgsPartida - 1; qtdeImgsDefinidas++) {
+            }
+        }
+        Random gerador = new Random();
+
+        for (int x = 1; 1 < QTDE_IMAGENS_DISPONIVEIS; x++) {
+            gerador.nextInt(x);
+            for (int j = 0; j < imgsPartida.length; j++) {
+                imgsPartida[j] =(x);
+                if (imgsPartida[j] == x) {
+                    imgsPartida[j]+=x;
+                } else {
+                    gerador.nextInt(x);
+                }
+            }
         }
     }
+    //atividade 4
 }
