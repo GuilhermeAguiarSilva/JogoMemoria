@@ -127,7 +127,30 @@ public class JogoMemoriaCtrl {
     }
 
     //atividade 4
-    private void preencherTabuleiro() {
+    private void preencherTabuleiro(int nivel) {
+
+        int tabControle[][] = {{0}, {0}};
+        for (int i = 0; i < imgsPartida.length; i++) {
+            if (nivel == 1 || nivel == 2) {
+                imgsPartida[i] = i * 2;
+                Random sorteioImg = new Random();
+                sorteioImg.nextInt();
+            } else {
+                imgsPartida[i] = i * 3;
+                Random sorteioImg = new Random();
+                sorteioImg.nextInt();
+            }
+            // - Verifique se a posição sorteada tem valor 0 no tabuleiro. Se tiver, atribua o identificador
+            //da imagem nesta posição. Caso o valor da célula seja diferente de 0 sorteie
+            //novamente até encontrar uma célula com valor 0.
+            //- Verifique se a posição sorteada tem valor 0 no tabuleiro. Se tiver, atribua o identificador
+            //da imagem nesta posição. Caso o valor da célula seja diferente de 0 sorteie
+            //novamente até encontrar uma célula com valor 0.
+        }
+    }
+
+    private void limparTabuleiros() {
+        int tabuleiro[][] = {{0}, {0}};
         int tabControle[][] = {{0}, {0}};
     }
 }
