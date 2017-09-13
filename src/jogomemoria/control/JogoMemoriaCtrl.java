@@ -110,14 +110,24 @@ public class JogoMemoriaCtrl {
         for (int x = 1; 1 < QTDE_IMAGENS_DISPONIVEIS; x++) {
             gerador.nextInt(x);
             for (int j = 0; j < imgsPartida.length; j++) {
-                imgsPartida[j] =(x);
+                imgsPartida[j] = (x);
                 if (imgsPartida[j] == x) {
-                    imgsPartida[j]+=x;
+                    imgsPartida[j] += x;
                 } else {
                     gerador.nextInt(x);
                 }
             }
         }
     }
+
+    private void limparImgsPartida() {
+        for (int i = 0; i < imgsPartida.length; i++) {
+            imgsPartida[i] = 0;
+        }
+    }
+
     //atividade 4
+    private void preencherTabuleiro() {
+        int tabControle[][] = {{0}, {0}};
+    }
 }
