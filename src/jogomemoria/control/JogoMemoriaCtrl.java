@@ -153,4 +153,27 @@ public class JogoMemoriaCtrl {
         int tabuleiro[][] = {{0}, {0}};
         int tabControle[][] = {{0}, {0}};
     }
+
+    public int realizarJogada(PecaTabuleiro pt1, PecaTabuleiro pt2) {
+        int resultado = JOGADA_INVALIDA;  //O resultado inicia pessimista. Estratégia definida pelo professor.
+        //Verifique se as peças pt1 e pt2 possuem linha e coluna dentro dos 
+        //limites do tabuleiro. Por exemplo: linha 1000 não existe pois está além 
+        //de MAX_LIN_DIFICIL.
+//       - Depois verifique se as posições de pt1 (linha, coluna) e pt2, na matriz 
+//       tabControle[][] possuem ambas valor 0. Se uma delas tiver valor 1 quer dizer
+//       que a posição já foi marcada (peça virada e acertada em jogada anterior)
+        resultado = JOGADA_CERTA;
+        pontuacaoAtual++;
+        return resultado;
+
+    }
+
+    public int realizarJogada(PecaTabuleiro pt1, PecaTabuleiro pt2, PecaTabuleiro pt3) {
+        int resultado = JOGADA_INVALIDA;  //O resultado inicia pessimista. Estratégia definida pelo professor.
+
+        
+        resultado = JOGADA_CERTA;
+        pontuacaoAtual++;
+        return resultado;
+    }
 }
