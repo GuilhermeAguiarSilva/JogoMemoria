@@ -21,11 +21,10 @@ public class JogoMemoriaCtrl {
 
     public static final int MAX_IMAGENS_PARTIDA = 18; //Máx. de imagens usadas nas partidas
     public static final int QTDE_IMAGENS_DISPONIVEIS = 20; //Quantidade de imagens disponíveis para o jogo (Sempre maior do que MAX_PECAS_PARTIDA)
-    
+
     public static final int QTDE_IMGS_FACIL = 8;
     public static final int QTDE_IMGS_INTERMEDIARIO = 18;
     public static final int QTDE_IMGS_DIFICIL = 18;
-
 
     public static final int QTDE_PECAS_TAB_FACIL = 16; //Referência para a qtde de peças do tabuleiro para o nível Fácil
     public static final int MAX_COL_FACIL = 4;  //Qtde de colunas no tabuleiro para o nível Fácil
@@ -53,8 +52,7 @@ public class JogoMemoriaCtrl {
     private int qtdImgsPartida; //Quantidade de imgens usadas na partida. Controla o uso de células do vetor imgsPartida conforme o nível da partida atual.           
     private int tabuleiro[][] = new int[MAX_LIN_DIFICIL][MAX_COL_DIFICIL]; //Matriz que implementa o tabuleiro do jogo onde as imagens estão distribuidas. Considera o tamanho máximo possível de ser usado que é para o nível difícil. Cada célula contém um número referente à imagem que ocupará a posição.
     private int tabControle[][] = new int[MAX_LIN_DIFICIL][MAX_COL_DIFICIL]; //Será usada em conjunto com a matriz tabuleiro[][]. Implementa um controle das jogadas já realizadas e acertadas. Ajuda a atulizar a tela indicando que imagem estará virada (Valor 0 na célula) e que imagem estará aberta (Valor 1). Considera o tamanho máximo possível de ser usado que é para o nível difícil.
- 
-    
+
     /* ----------------------- MÉTODOS -----------------------*/
     /**
      * Construtor para a classe
@@ -118,22 +116,23 @@ public class JogoMemoriaCtrl {
     }
 
     private void sortearImagensPartida() {
-        boolean achou =false;
+        boolean achou = false;
         limparImgsPartida();
         int qtdeSorteadas = 0;
-        while(qtdeSorteadas<qtdImgsPartida){
-            int i = obterNumSorteado(1,QTDE_IMAGENS_DISPONIVEIS);
+        while (qtdeSorteadas < qtdImgsPartida) {
+            int i = obterNumSorteado(1, QTDE_IMAGENS_DISPONIVEIS);
             achou = false;
-            for(int k=0; k<qtdeSorteadas; k++){
-                if(imgsPartida[k]==i){
-                    achou=true;
-                }break;
-              } 
-              if(!achou){
-                  imgsPartida[qtdImgsPartida]=i;
-                  qtdImgsPartida++;
-            }          
-        }  
+            for (int k = 0; k < qtdeSorteadas; k++) {
+                if (imgsPartida[k] == i) {
+                    achou = true;
+                }
+                break;
+            }
+            if (!achou) {
+                imgsPartida[qtdImgsPartida] = i;
+                qtdImgsPartida++;
+            }
+        }
     }
 
     private void limparImgsPartida() { //dois for igual matriz
