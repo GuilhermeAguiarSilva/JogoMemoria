@@ -44,6 +44,8 @@ public class JogoMemoriaCtrl {
     private int tempoLimite;      //Tempo limite para a partida em segundos (minutos * 60)
     private int pontuacaoAtual;   //Pontuação da partida atual
     private int nivelAtual;       //Nível da partida atual
+    private int linhaMax;
+    private int colunaMax;
     private int tabRecordes[][] = {{0, 0, 0}, //Quadro de melhores pontuações por nível (Recordes)
     {0, 0, 0}, //Linha = Nível e Coluna = Ouro, prata ou bronze.
     {0, 0, 0}};
@@ -81,21 +83,27 @@ public class JogoMemoriaCtrl {
         if (nivel == FACIL) {
             nivelAtual = FACIL;
             qtdImgsPartida = QTDE_IMGS_FACIL;
+            linhaMax = MAX_LIN_FACIL;
+            colunaMax = MAX_COL_FACIL;
         } else {
             if (nivel == INTERMEDIARIO) {
                 nivelAtual = INTERMEDIARIO;
                 qtdImgsPartida = QTDE_IMGS_INTERMEDIARIO;
+                linhaMax = MAX_LIN_INTERMEDIARIO;
+                colunaMax = MAX_COL_INTERMEDIARIO;
             } else {
                 if (nivel == DIFICIL) {
                     nivelAtual = DIFICIL;
                     qtdImgsPartida = QTDE_IMGS_DIFICIL;
+                    linhaMax = MAX_LIN_DIFICIL;
+                    colunaMax = MAX_COL_DIFICIL;
                 } else {
                     System.out.println("ERRO"); //lançar exceptiona
                 }
             }
         }
         sortearImagensPartida();
-        
+
         preencherTabuleiro(nivel);
         limparTabuleiros();
     }
@@ -176,26 +184,44 @@ public class JogoMemoriaCtrl {
 
     public int realizarJogada(PecaTabuleiro pt1, PecaTabuleiro pt2) {
         int resultado = JOGADA_INVALIDA;  //O resultado inicia pessimista. Estratégia definida pelo professor.
-        //Verifique se as peças pt1 e pt2 possuem linha e coluna dentro dos 
-        //limites do tabuleiro. Por exemplo: linha 1000 não existe pois está além 
-        //de MAX_LIN_DIFICIL.
-        if(<MAX_LIN_DIFICIL){
-            
+        if (pt1.getIdImagem() == pt2.getIdImagem()) {
+            if ((pt1.getLinha() <= linhaMax) && (pt1.getColuna() <= colunaMax) &&
+                (pt2.getLinha() <= linhaMax) && (pt2.getColuna() <= colunaMax)) {
+                int vrControle1 = tabControle[pt1.getLinha()][pt1.getColuna()];
+                int vrControle2 = tabControle[pt2.getLinha()][pt2.getColuna()];
+                if ((vrControle1 == 0) && (vrControle2 == 0)) {
+                    resultado = JOGADA_CERTA;
+                    pontuacaoAtual++;
+                    tabControle[pt1.getLinha()][pt1.getColuna()] = 1;
+                    tabControle[pt2.getLinha()][pt2.getColuna()] = 1;
+                } else {
+                   resultado=JOGADA_ERRADA;
+                }
+            }
         }
-//       - Depois verifique se as posições de pt1 (linha, coluna) e pt2, na matriz 
-//       tabControle[][] possuem ambas valor 0. Se uma delas tiver valor 1 quer dizer
-//       que a posição já foi marcada (peça virada e acertada em jogada anterior)
-        resultado = JOGADA_CERTA;
-        pontuacaoAtual++;
-        return resultado;
-
+         return resultado;
     }
 
     public int realizarJogada(PecaTabuleiro pt1, PecaTabuleiro pt2, PecaTabuleiro pt3) {
         int resultado = JOGADA_INVALIDA;  //O resultado inicia pessimista. Estratégia definida pelo professor.
-
-        resultado = JOGADA_CERTA;
-        pontuacaoAtual++;
-        return resultado;
+        if (pt1.getIdImagem() == pt2.getIdImagem()) {
+            if ((pt1.getLinha() <= linhaMax) && (pt1.getColuna() <= colunaMax) &&
+                (pt2.getLinha() <= linhaMax) && (pt2.getColuna() <= colunaMax)&& 
+                 (pt3.getLinha() <= linhaMax) && (pt3.getColuna() <= colunaMax)){
+                int vrControle1 = tabControle[pt1.getLinha()][pt1.getColuna()];
+                int vrControle2 = tabControle[pt2.getLinha()][pt2.getColuna()];
+                int vrControle3 = tabControle[pt3.getLinha()][pt3.getColuna()];
+                if ((vrControle1 == 0) && (vrControle2 == 0)&& (vrControle3 == 0)) {
+                    resultado = JOGADA_CERTA;
+                    pontuacaoAtual++;
+                    tabControle[pt1.getLinha()][pt1.getColuna()] = 1;
+                    tabControle[pt2.getLinha()][pt2.getColuna()] = 1;
+                    tabControle[pt3.getLinha()][pt3.getColuna()] = 1;
+                } else {
+                   resultado=JOGADA_ERRADA;
+                }
+            }
+        }
+         return resultado;
     }
 }
