@@ -95,7 +95,8 @@ public class JogoMemoriaCtrl {
             }
         }
         sortearImagensPartida();
-        preencherTabuleiro();
+        
+        preencherTabuleiro(nivel);
         limparTabuleiros();
     }
     //atividade 3
@@ -142,7 +143,7 @@ public class JogoMemoriaCtrl {
     }
 
     //atividade 4
-    private void preencherTabuleiro() {
+    private void preencherTabuleiro(int nivel) {
 
         int tabControle[][] = {{0}, {0}};
         for (int i = 0; i < imgsPartida.length; i++) {
@@ -178,6 +179,9 @@ public class JogoMemoriaCtrl {
         //Verifique se as peças pt1 e pt2 possuem linha e coluna dentro dos 
         //limites do tabuleiro. Por exemplo: linha 1000 não existe pois está além 
         //de MAX_LIN_DIFICIL.
+        if(<MAX_LIN_DIFICIL){
+            
+        }
 //       - Depois verifique se as posições de pt1 (linha, coluna) e pt2, na matriz 
 //       tabControle[][] possuem ambas valor 0. Se uma delas tiver valor 1 quer dizer
 //       que a posição já foi marcada (peça virada e acertada em jogada anterior)
