@@ -5,6 +5,8 @@
  */
 package jogomemoria.gui;
 
+import jogomemoria.control.JogoMemoriaCtrl;
+
 /**
  *
  * @author Aluno
@@ -13,6 +15,7 @@ public class JogoMemoriaPrincipal extends javax.swing.JFrame {
     private JogoMemoriaIniciante jpf = new JogoMemoriaIniciante();
     private JogoMemoriaIntermediario jpi = new JogoMemoriaIntermediario();
     private JogoMemoriaDificil jpd = new JogoMemoriaDificil();
+    private JogoMemoriaCtrl controle =  new JogoMemoriaCtrl();
     /**
      * Creates new form JogoMemoriaForm
      */
@@ -150,7 +153,11 @@ public class JogoMemoriaPrincipal extends javax.swing.JFrame {
 
     private void btnIniciarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnIniciarActionPerformed
               String op = (String) cmbNivel.getSelectedItem();
+              int t = ((Integer)spnTempo.getValue()).intValue();
+              int n = cmbNivel.getSelectedIndex()+1;
+              controle.iniciarPartida(n, t);
             if (op.equals("Iniciante")) {
+                //Preencher o tabuleiro gráfico com base em controle.getTabuleiro()
                 sppPrincipal.setRightComponent(jpf);
                 this.setSize(800, 600);
             }
