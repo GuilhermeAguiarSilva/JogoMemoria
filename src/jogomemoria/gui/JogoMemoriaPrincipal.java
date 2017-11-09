@@ -168,7 +168,7 @@ public class JogoMemoriaPrincipal extends javax.swing.JFrame {
             nivelSelec = controle.DIFICIL;
         }
         int tempoL = (((Integer) spnTempo.getValue()).intValue());
-        controle.InicarPartida(nivelSelec, tempoL);
+        controle.iniciarPartida(nivelSelec, tempoL);
         mostrarTabuleiro(rootPaneCheckingEnabled);
         
         this.repaint();
