@@ -24,100 +24,70 @@
     <Property name="rows" type="int" value="6"/>
   </Layout>
   <SubComponents>
-    <Component class="javax.swing.JLabel" name="lblimg1">
+    <Component class="javax.swing.JLabel" name="lblimg00">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/verso.jpg"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jm0.jpg"/>
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblimg1MouseClicked"/>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblimg00MouseClicked"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JLabel" name="lblimg2">
+    <Component class="javax.swing.JLabel" name="lblimg01">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/verso.jpg"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jm0.jpg"/>
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblimg2MouseClicked"/>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblimg01MouseClicked"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JLabel" name="lblimg7">
+    <Component class="javax.swing.JLabel" name="lblimg02">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/verso.jpg"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jm0.jpg"/>
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblimg7MouseClicked"/>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblimg02MouseClicked"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JLabel" name="lblimg3">
+    <Component class="javax.swing.JLabel" name="lblimg03">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/verso.jpg"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jm0.jpg"/>
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblimg3MouseClicked"/>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblimg03MouseClicked"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JLabel" name="lblimg4">
+    <Component class="javax.swing.JLabel" name="lblimg04">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/verso.jpg"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jm0.jpg"/>
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblimg4MouseClicked"/>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblimg04MouseClicked"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JLabel" name="lblimg5">
+    <Component class="javax.swing.JLabel" name="lblimg05">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/verso.jpg"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jm0.jpg"/>
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblimg5MouseClicked"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JLabel" name="lblimg6">
-      <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/verso.jpg"/>
-        </Property>
-      </Properties>
-      <Events>
-        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblimg6MouseClicked"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JLabel" name="lblimg8">
-      <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/verso.jpg"/>
-        </Property>
-      </Properties>
-      <Events>
-        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblimg8MouseClicked"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JLabel" name="lblimg9">
-      <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/verso.jpg"/>
-        </Property>
-      </Properties>
-      <Events>
-        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblimg9MouseClicked"/>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblimg05MouseClicked"/>
       </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="lblimg10">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/verso.jpg"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jm0.jpg"/>
         </Property>
       </Properties>
       <Events>
@@ -127,7 +97,7 @@
     <Component class="javax.swing.JLabel" name="lblimg11">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/verso.jpg"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jm0.jpg"/>
         </Property>
       </Properties>
       <Events>
@@ -137,7 +107,7 @@
     <Component class="javax.swing.JLabel" name="lblimg12">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/verso.jpg"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jm0.jpg"/>
         </Property>
       </Properties>
       <Events>
@@ -147,47 +117,17 @@
     <Component class="javax.swing.JLabel" name="lblimg13">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/verso.jpg"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jm0.jpg"/>
         </Property>
       </Properties>
       <Events>
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblimg13MouseClicked"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JLabel" name="lblimg19">
-      <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/verso.jpg"/>
-        </Property>
-      </Properties>
-      <Events>
-        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblimg19MouseClicked"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JLabel" name="lblimg25">
-      <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/verso.jpg"/>
-        </Property>
-      </Properties>
-      <Events>
-        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblimg25MouseClicked"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JLabel" name="lblimg31">
-      <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/verso.jpg"/>
-        </Property>
-      </Properties>
-      <Events>
-        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblimg31MouseClicked"/>
-      </Events>
-    </Component>
     <Component class="javax.swing.JLabel" name="lblimg14">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/verso.jpg"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jm0.jpg"/>
         </Property>
       </Properties>
       <Events>
@@ -197,47 +137,17 @@
     <Component class="javax.swing.JLabel" name="lblimg15">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/verso.jpg"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jm0.jpg"/>
         </Property>
       </Properties>
       <Events>
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblimg15MouseClicked"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JLabel" name="lblimg16">
-      <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/verso.jpg"/>
-        </Property>
-      </Properties>
-      <Events>
-        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblimg16MouseClicked"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JLabel" name="lblimg17">
-      <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/verso.jpg"/>
-        </Property>
-      </Properties>
-      <Events>
-        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblimg17MouseClicked"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JLabel" name="lblimg18">
-      <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/verso.jpg"/>
-        </Property>
-      </Properties>
-      <Events>
-        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblimg18MouseClicked"/>
-      </Events>
-    </Component>
     <Component class="javax.swing.JLabel" name="lblimg20">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/verso.jpg"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jm0.jpg"/>
         </Property>
       </Properties>
       <Events>
@@ -247,7 +157,7 @@
     <Component class="javax.swing.JLabel" name="lblimg21">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/verso.jpg"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jm0.jpg"/>
         </Property>
       </Properties>
       <Events>
@@ -257,7 +167,7 @@
     <Component class="javax.swing.JLabel" name="lblimg22">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/verso.jpg"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jm0.jpg"/>
         </Property>
       </Properties>
       <Events>
@@ -267,7 +177,7 @@
     <Component class="javax.swing.JLabel" name="lblimg23">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/verso.jpg"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jm0.jpg"/>
         </Property>
       </Properties>
       <Events>
@@ -277,67 +187,47 @@
     <Component class="javax.swing.JLabel" name="lblimg24">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/verso.jpg"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jm0.jpg"/>
         </Property>
       </Properties>
       <Events>
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblimg24MouseClicked"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JLabel" name="lblimg26">
+    <Component class="javax.swing.JLabel" name="lblimg25">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/verso.jpg"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jm0.jpg"/>
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblimg26MouseClicked"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JLabel" name="lblimg27">
-      <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/verso.jpg"/>
-        </Property>
-      </Properties>
-      <Events>
-        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblimg27MouseClicked"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JLabel" name="lblimg28">
-      <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/verso.jpg"/>
-        </Property>
-      </Properties>
-      <Events>
-        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblimg28MouseClicked"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JLabel" name="lblimg29">
-      <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/verso.jpg"/>
-        </Property>
-      </Properties>
-      <Events>
-        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblimg29MouseClicked"/>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblimg25MouseClicked"/>
       </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="lblimg30">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/verso.jpg"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jm0.jpg"/>
         </Property>
       </Properties>
       <Events>
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblimg30MouseClicked"/>
       </Events>
     </Component>
+    <Component class="javax.swing.JLabel" name="lblimg31">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/jogomemoria/gui/img/jm0.jpg"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblimg31MouseClicked"/>
+      </Events>
+    </Component>
     <Component class="javax.swing.JLabel" name="lblimg32">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/verso.jpg"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jm0.jpg"/>
         </Property>
       </Properties>
       <Events>
@@ -347,7 +237,7 @@
     <Component class="javax.swing.JLabel" name="lblimg33">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/verso.jpg"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jm0.jpg"/>
         </Property>
       </Properties>
       <Events>
@@ -357,7 +247,7 @@
     <Component class="javax.swing.JLabel" name="lblimg34">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/verso.jpg"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jm0.jpg"/>
         </Property>
       </Properties>
       <Events>
@@ -367,21 +257,131 @@
     <Component class="javax.swing.JLabel" name="lblimg35">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/verso.jpg"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jm0.jpg"/>
         </Property>
       </Properties>
       <Events>
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblimg35MouseClicked"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JLabel" name="lblimg36">
+    <Component class="javax.swing.JLabel" name="lblimg40">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/verso.jpg"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jm0.jpg"/>
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblimg36MouseClicked"/>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblimg40MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblimg41">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/jogomemoria/gui/img/jm0.jpg"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblimg41MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblimg42">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/jogomemoria/gui/img/jm0.jpg"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblimg42MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblimg43">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/jogomemoria/gui/img/jm0.jpg"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblimg43MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblimg44">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/jogomemoria/gui/img/jm0.jpg"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblimg44MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblimg45">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/jogomemoria/gui/img/jm0.jpg"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblimg45MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblimg50">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/jogomemoria/gui/img/jm0.jpg"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblimg50MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblimg51">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/jogomemoria/gui/img/jm0.jpg"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblimg51MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblimg52">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/jogomemoria/gui/img/jm0.jpg"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblimg52MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblimg53">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/jogomemoria/gui/img/jm0.jpg"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblimg53MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblimg54">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/jogomemoria/gui/img/jm0.jpg"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblimg54MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblimg55">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/jogomemoria/gui/img/jm0.jpg"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblimg55MouseClicked"/>
       </Events>
     </Component>
   </SubComponents>
