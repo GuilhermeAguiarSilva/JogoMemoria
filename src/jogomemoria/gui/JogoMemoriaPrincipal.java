@@ -5,7 +5,9 @@
  */
 package jogomemoria.gui;
 
+import javax.swing.ImageIcon;
 import jogomemoria.control.JogoMemoriaCtrl;
+import jogomemoria.model.PecaTabuleiro;;
 
 /**
  *
@@ -15,12 +17,13 @@ public class JogoMemoriaPrincipal extends javax.swing.JFrame {
     private JogoMemoriaIniciante jpf = new JogoMemoriaIniciante();
     private JogoMemoriaIntermediario jpi = new JogoMemoriaIntermediario();
     private JogoMemoriaDificil jpd = new JogoMemoriaDificil();
-    private JogoMemoriaCtrl controle =  new JogoMemoriaCtrl();
+    private JogoMemoriaCtrl controle;
     /**
      * Creates new form JogoMemoriaForm
      */
     public JogoMemoriaPrincipal() {
         initComponents();
+        controle = new JogoMemoriaCtrl();
     }
 
     /**
@@ -152,26 +155,23 @@ public class JogoMemoriaPrincipal extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnIniciarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnIniciarActionPerformed
-              String op = (String) cmbNivel.getSelectedItem();
-              int t = ((Integer)spnTempo.getValue()).intValue();
-              int n = cmbNivel.getSelectedIndex()+1;
-              controle.iniciarPartida(n, t);
-            if (op.equals("Iniciante")) {
-                //Preencher o tabuleiro gráfico com base em controle.getTabuleiro()
-                sppPrincipal.setRightComponent(jpf);
-                this.setSize(800, 600);
-            }
-            if (((String) cmbNivel.getSelectedItem()).equals("Intermediário")){ 
-                sppPrincipal.setRightComponent(jpi);
-                this.setSize(800, 800);
-            }
-            if (op.equals("Difícil")){ 
-                sppPrincipal.setRightComponent(jpd);
-                this.setSize(920, 700);
-            }    
-            this.repaint();
-            
-     
+                int nivelSelec = 0;
+        String nivel = (String) cmbNivel.getSelectedItem();
+
+        if (nivel.equals("Iniciante")) {
+            nivelSelec = controle.FACIL;
+        }
+        if (((String) cmbNivel.getSelectedItem()).equals("Intermediario")) {
+            nivelSelec = controle.INTERMEDIARIO;
+        }
+        if (nivel.equals("Dificil")) {
+            nivelSelec = controle.DIFICIL;
+        }
+        int tempoL = (((Integer) spnTempo.getValue()).intValue());
+        controle.InicarPartida(nivelSelec, tempoL);
+        mostrarTabuleiro(rootPaneCheckingEnabled);
+        
+        this.repaint();
     }//GEN-LAST:event_btnIniciarActionPerformed
 
     private void cmbNivelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmbNivelActionPerformed
@@ -231,4 +231,42 @@ public class JogoMemoriaPrincipal extends javax.swing.JFrame {
     private javax.swing.JSpinner spnTempo;
     private javax.swing.JSplitPane sppPrincipal;
     // End of variables declaration//GEN-END:variables
+
+ public void mostrarTabuleiro(boolean inicioJogo) {
+
+        PecaTabuleiro pctb[][] = controle.getTabuleiro();
+        int idImg;
+
+        ImageIcon imgDuvida = new ImageIcon(getClass().getResource("/jogomemoria/gui/img/Virada.png"));
+        
+        if (controle.getNivelAtual() == controle.FACIL) {
+
+            if (inicioJogo || pctb[0][0].isVirada()) {
+                idImg = pctb[0][0].getIdImagem();
+                ImageIcon img00 = new ImageIcon(getClass().getResource("/jogomemoria/gui/img/Virada" + idImg + ".png"));
+                (jpf.getLblImg00()).setIcon(img00);
+            } else {
+                (jpf.getLblImg00()).setIcon(imgDuvida);
+            }
+
+            if (inicioJogo || pctb[0][1].isVirada()) {
+                idImg = pctb[0][1].getIdImagem();
+                ImageIcon img01 = new ImageIcon(getClass().getResource("/jogomemoria/gui/img/Virada" + idImg + ".png"));
+                (jpf.getLblImg01()).setIcon(img01);
+            } else {
+                (jpf.getLblImg01()).setIcon(imgDuvida);
+            }
+
+            sppPrincipal.setRightComponent(jpf);
+            this.setSize(800, 600);
+        }
+        if (controle.getNivelAtual() == controle.INTERMEDIARIO) {
+            sppPrincipal.setRightComponent(jpi);
+            this.setSize(1024, 768);
+        }
+        if (controle.getNivelAtual() == controle.DIFICIL) {
+            sppPrincipal.setRightComponent(jpd);
+            this.setSize(1600, 980);
+        }
+    }
 }
