@@ -109,7 +109,7 @@ public class JogoMemoriaCtrl {
         sortearImagensPartida();
 
         preencherTabuleiro(nivel);
-        limparTabuleiro();
+       
     }
     //atividade 3
 
@@ -142,8 +142,8 @@ public class JogoMemoriaCtrl {
                 break;
             }
             if (!achou) {
-                imgsPartida[qtdImgsPartida] = i;
-                qtdImgsPartida++;
+                imgsPartida[qtdeSorteadas] = i;
+                qtdeSorteadas++;
             }
         }
     }

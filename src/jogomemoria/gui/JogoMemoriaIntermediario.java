@@ -571,7 +571,7 @@ public class JogoMemoriaIntermediario extends javax.swing.JPanel {
         setPreferredSize(new java.awt.Dimension(690, 610));
         setLayout(new java.awt.GridLayout(6, 6));
 
-        lblimg00.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.jpg"))); // NOI18N
+        lblimg00.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
         lblimg00.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lblimg00MouseClicked(evt);
@@ -579,7 +579,7 @@ public class JogoMemoriaIntermediario extends javax.swing.JPanel {
         });
         add(lblimg00);
 
-        lblimg01.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.jpg"))); // NOI18N
+        lblimg01.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
         lblimg01.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lblimg01MouseClicked(evt);
@@ -587,7 +587,7 @@ public class JogoMemoriaIntermediario extends javax.swing.JPanel {
         });
         add(lblimg01);
 
-        lblimg02.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.jpg"))); // NOI18N
+        lblimg02.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
         lblimg02.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lblimg02MouseClicked(evt);
@@ -595,7 +595,7 @@ public class JogoMemoriaIntermediario extends javax.swing.JPanel {
         });
         add(lblimg02);
 
-        lblimg03.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.jpg"))); // NOI18N
+        lblimg03.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
         lblimg03.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lblimg03MouseClicked(evt);
@@ -603,7 +603,7 @@ public class JogoMemoriaIntermediario extends javax.swing.JPanel {
         });
         add(lblimg03);
 
-        lblimg04.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.jpg"))); // NOI18N
+        lblimg04.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
         lblimg04.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lblimg04MouseClicked(evt);
@@ -611,7 +611,7 @@ public class JogoMemoriaIntermediario extends javax.swing.JPanel {
         });
         add(lblimg04);
 
-        lblimg05.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.jpg"))); // NOI18N
+        lblimg05.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
         lblimg05.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lblimg05MouseClicked(evt);
@@ -619,7 +619,7 @@ public class JogoMemoriaIntermediario extends javax.swing.JPanel {
         });
         add(lblimg05);
 
-        lblimg10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.jpg"))); // NOI18N
+        lblimg10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
         lblimg10.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lblimg10MouseClicked(evt);
@@ -627,7 +627,7 @@ public class JogoMemoriaIntermediario extends javax.swing.JPanel {
         });
         add(lblimg10);
 
-        lblimg11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.jpg"))); // NOI18N
+        lblimg11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
         lblimg11.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lblimg11MouseClicked(evt);
@@ -635,7 +635,7 @@ public class JogoMemoriaIntermediario extends javax.swing.JPanel {
         });
         add(lblimg11);
 
-        lblimg12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.jpg"))); // NOI18N
+        lblimg12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
         lblimg12.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lblimg12MouseClicked(evt);
@@ -643,7 +643,7 @@ public class JogoMemoriaIntermediario extends javax.swing.JPanel {
         });
         add(lblimg12);
 
-        lblimg13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.jpg"))); // NOI18N
+        lblimg13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
         lblimg13.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lblimg13MouseClicked(evt);
@@ -651,7 +651,7 @@ public class JogoMemoriaIntermediario extends javax.swing.JPanel {
         });
         add(lblimg13);
 
-        lblimg14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.jpg"))); // NOI18N
+        lblimg14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
         lblimg14.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lblimg14MouseClicked(evt);
@@ -659,7 +659,7 @@ public class JogoMemoriaIntermediario extends javax.swing.JPanel {
         });
         add(lblimg14);
 
-        lblimg15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.jpg"))); // NOI18N
+        lblimg15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
         lblimg15.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lblimg15MouseClicked(evt);
@@ -667,7 +667,7 @@ public class JogoMemoriaIntermediario extends javax.swing.JPanel {
         });
         add(lblimg15);
 
-        lblimg20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.jpg"))); // NOI18N
+        lblimg20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
         lblimg20.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lblimg20MouseClicked(evt);
@@ -675,7 +675,7 @@ public class JogoMemoriaIntermediario extends javax.swing.JPanel {
         });
         add(lblimg20);
 
-        lblimg21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.jpg"))); // NOI18N
+        lblimg21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
         lblimg21.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lblimg21MouseClicked(evt);
@@ -683,7 +683,7 @@ public class JogoMemoriaIntermediario extends javax.swing.JPanel {
         });
         add(lblimg21);
 
-        lblimg22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.jpg"))); // NOI18N
+        lblimg22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
         lblimg22.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lblimg22MouseClicked(evt);
@@ -691,7 +691,7 @@ public class JogoMemoriaIntermediario extends javax.swing.JPanel {
         });
         add(lblimg22);
 
-        lblimg23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.jpg"))); // NOI18N
+        lblimg23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
         lblimg23.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lblimg23MouseClicked(evt);
@@ -699,7 +699,7 @@ public class JogoMemoriaIntermediario extends javax.swing.JPanel {
         });
         add(lblimg23);
 
-        lblimg24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.jpg"))); // NOI18N
+        lblimg24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
         lblimg24.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lblimg24MouseClicked(evt);
@@ -707,7 +707,7 @@ public class JogoMemoriaIntermediario extends javax.swing.JPanel {
         });
         add(lblimg24);
 
-        lblimg25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.jpg"))); // NOI18N
+        lblimg25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
         lblimg25.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lblimg25MouseClicked(evt);
@@ -715,7 +715,7 @@ public class JogoMemoriaIntermediario extends javax.swing.JPanel {
         });
         add(lblimg25);
 
-        lblimg30.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.jpg"))); // NOI18N
+        lblimg30.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
         lblimg30.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lblimg30MouseClicked(evt);
@@ -723,7 +723,7 @@ public class JogoMemoriaIntermediario extends javax.swing.JPanel {
         });
         add(lblimg30);
 
-        lblimg31.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.jpg"))); // NOI18N
+        lblimg31.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
         lblimg31.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lblimg31MouseClicked(evt);
@@ -731,7 +731,7 @@ public class JogoMemoriaIntermediario extends javax.swing.JPanel {
         });
         add(lblimg31);
 
-        lblimg32.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.jpg"))); // NOI18N
+        lblimg32.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
         lblimg32.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lblimg32MouseClicked(evt);
@@ -739,7 +739,7 @@ public class JogoMemoriaIntermediario extends javax.swing.JPanel {
         });
         add(lblimg32);
 
-        lblimg33.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.jpg"))); // NOI18N
+        lblimg33.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
         lblimg33.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lblimg33MouseClicked(evt);
@@ -747,7 +747,7 @@ public class JogoMemoriaIntermediario extends javax.swing.JPanel {
         });
         add(lblimg33);
 
-        lblimg34.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.jpg"))); // NOI18N
+        lblimg34.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
         lblimg34.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lblimg34MouseClicked(evt);
@@ -755,7 +755,7 @@ public class JogoMemoriaIntermediario extends javax.swing.JPanel {
         });
         add(lblimg34);
 
-        lblimg35.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.jpg"))); // NOI18N
+        lblimg35.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
         lblimg35.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lblimg35MouseClicked(evt);
@@ -763,7 +763,7 @@ public class JogoMemoriaIntermediario extends javax.swing.JPanel {
         });
         add(lblimg35);
 
-        lblimg40.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.jpg"))); // NOI18N
+        lblimg40.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
         lblimg40.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lblimg40MouseClicked(evt);
@@ -771,7 +771,7 @@ public class JogoMemoriaIntermediario extends javax.swing.JPanel {
         });
         add(lblimg40);
 
-        lblimg41.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.jpg"))); // NOI18N
+        lblimg41.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
         lblimg41.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lblimg41MouseClicked(evt);
@@ -779,7 +779,7 @@ public class JogoMemoriaIntermediario extends javax.swing.JPanel {
         });
         add(lblimg41);
 
-        lblimg42.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.jpg"))); // NOI18N
+        lblimg42.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
         lblimg42.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lblimg42MouseClicked(evt);
@@ -787,7 +787,7 @@ public class JogoMemoriaIntermediario extends javax.swing.JPanel {
         });
         add(lblimg42);
 
-        lblimg43.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.jpg"))); // NOI18N
+        lblimg43.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
         lblimg43.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lblimg43MouseClicked(evt);
@@ -795,7 +795,7 @@ public class JogoMemoriaIntermediario extends javax.swing.JPanel {
         });
         add(lblimg43);
 
-        lblimg44.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.jpg"))); // NOI18N
+        lblimg44.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
         lblimg44.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lblimg44MouseClicked(evt);
@@ -803,7 +803,7 @@ public class JogoMemoriaIntermediario extends javax.swing.JPanel {
         });
         add(lblimg44);
 
-        lblimg45.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.jpg"))); // NOI18N
+        lblimg45.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
         lblimg45.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lblimg45MouseClicked(evt);
@@ -811,7 +811,7 @@ public class JogoMemoriaIntermediario extends javax.swing.JPanel {
         });
         add(lblimg45);
 
-        lblimg50.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.jpg"))); // NOI18N
+        lblimg50.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
         lblimg50.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lblimg50MouseClicked(evt);
@@ -819,7 +819,7 @@ public class JogoMemoriaIntermediario extends javax.swing.JPanel {
         });
         add(lblimg50);
 
-        lblimg51.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.jpg"))); // NOI18N
+        lblimg51.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
         lblimg51.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lblimg51MouseClicked(evt);
@@ -827,7 +827,7 @@ public class JogoMemoriaIntermediario extends javax.swing.JPanel {
         });
         add(lblimg51);
 
-        lblimg52.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.jpg"))); // NOI18N
+        lblimg52.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
         lblimg52.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lblimg52MouseClicked(evt);
@@ -835,7 +835,7 @@ public class JogoMemoriaIntermediario extends javax.swing.JPanel {
         });
         add(lblimg52);
 
-        lblimg53.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.jpg"))); // NOI18N
+        lblimg53.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
         lblimg53.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lblimg53MouseClicked(evt);
@@ -843,7 +843,7 @@ public class JogoMemoriaIntermediario extends javax.swing.JPanel {
         });
         add(lblimg53);
 
-        lblimg54.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.jpg"))); // NOI18N
+        lblimg54.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
         lblimg54.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lblimg54MouseClicked(evt);
@@ -851,7 +851,7 @@ public class JogoMemoriaIntermediario extends javax.swing.JPanel {
         });
         add(lblimg54);
 
-        lblimg55.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.jpg"))); // NOI18N
+        lblimg55.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
         lblimg55.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lblimg55MouseClicked(evt);
