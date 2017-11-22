@@ -6,7 +6,7 @@
 package jogomemoria.gui;
 
 
-import javax.swing.JSplitPane;
+import javax.swing.JPanel;
 
 /**
  *
@@ -30,66 +30,26 @@ public class Tabuleiro extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jSplitPane1 = new javax.swing.JSplitPane();
-        jogoMemoriaIniciante2 = new jogomemoria.gui.JogoMemoriaIniciante();
-        info1 = new jogomemoria.gui.Info();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
+        sppTabuleiro = new javax.swing.JSplitPane();
+        info2 = new jogomemoria.gui.Info();
 
         setLayout(new java.awt.BorderLayout());
 
-        jSplitPane1.setLeftComponent(jogoMemoriaIniciante2);
+        sppTabuleiro.setLeftComponent(info2);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/Ouro.png"))); // NOI18N
-
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/prata.png"))); // NOI18N
-
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/bronze.png"))); // NOI18N
-
-        javax.swing.GroupLayout info1Layout = new javax.swing.GroupLayout(info1);
-        info1.setLayout(info1Layout);
-        info1Layout.setHorizontalGroup(
-            info1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(info1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(info1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 156, Short.MAX_VALUE)
-                    .addGroup(info1Layout.createSequentialGroup()
-                        .addGroup(info1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel2)
-                            .addComponent(jLabel3)
-                            .addComponent(jLabel4))
-                        .addGap(0, 0, Short.MAX_VALUE)))
-                .addContainerGap())
-        );
-        info1Layout.setVerticalGroup(
-            info1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(info1Layout.createSequentialGroup()
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(40, 40, 40)
-                .addComponent(jLabel3)
-                .addGap(42, 42, 42)
-                .addComponent(jLabel2)
-                .addGap(18, 18, 18)
-                .addComponent(jLabel4)
-                .addGap(0, 311, Short.MAX_VALUE))
-        );
-
-        jSplitPane1.setRightComponent(info1);
-
-        add(jSplitPane1, java.awt.BorderLayout.CENTER);
+        add(sppTabuleiro, java.awt.BorderLayout.CENTER);
     }// </editor-fold>//GEN-END:initComponents
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private jogomemoria.gui.Info info1;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JSplitPane jSplitPane1;
-    private jogomemoria.gui.JogoMemoriaIniciante jogoMemoriaIniciante2;
+    private jogomemoria.gui.Info info2;
+    private javax.swing.JSplitPane sppTabuleiro;
     // End of variables declaration//GEN-END:variables
+
+
+
+public void setTabuleiro(JPanel pnl){
+    sppTabuleiro.setRightComponent(pnl);
+}
+
 }

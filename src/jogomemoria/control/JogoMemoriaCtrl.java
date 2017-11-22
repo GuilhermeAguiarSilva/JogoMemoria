@@ -171,8 +171,8 @@ public class JogoMemoriaCtrl {
                 int c;
                 boolean sucesso = false;
                 while (!sucesso) {
-                    l = obterNumSorteado(0, linhaMax);
-                    c = obterNumSorteado(0, colunaMax);
+                    l = obterNumSorteado(0, linhaMax-1);
+                    c = obterNumSorteado(0, colunaMax-1);
                     if (getTabuleiro()[l][c] == null) {
                         p.setLinha(l);
                         p.setColuna(c);
@@ -196,8 +196,8 @@ public class JogoMemoriaCtrl {
     public int realizarJogada(PecaTabuleiro pt1, PecaTabuleiro pt2) {
         int resultado = JOGADA_ERRADA;  //O resultado inicia pessimista. Estratégia definida pelo professor.
         if (pt1.getIdImagem() == pt2.getIdImagem()) {
-            if ((pt1.getLinha() <= linhaMax) && (pt1.getColuna() <= colunaMax)
-                    && (pt2.getLinha() <= linhaMax) && (pt2.getColuna() <= colunaMax)) {
+            if ((pt1.getLinha() < linhaMax) && (pt1.getColuna() < colunaMax)
+                    && (pt2.getLinha() < linhaMax) && (pt2.getColuna() < colunaMax)) {
                 if ((!pt1.isVirada()) && (!pt2.isVirada())) {
                     resultado = JOGADA_CERTA;
                     setPontuacaoAtual(getPontuacaoAtual() + 1);
