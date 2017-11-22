@@ -39,6 +39,7 @@ public class Info extends javax.swing.JPanel {
         lblimgprata.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/prata.png"))); // NOI18N
         lblimgprata.setText("lblimgprata");
 
+        lilimgbronze.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/bronze.png"))); // NOI18N
         lilimgbronze.setText("jLabel2");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
