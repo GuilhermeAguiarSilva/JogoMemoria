@@ -6,6 +6,7 @@
 package jogomemoria.gui;
 
 import javax.swing.ImageIcon;
+import javax.swing.JOptionPane;
 import jogomemoria.control.JogoMemoriaCtrl;
 import jogomemoria.model.PecaTabuleiro;
 
@@ -17,7 +18,7 @@ import jogomemoria.model.PecaTabuleiro;
  */
 public class JogoMemoriaPrincipal extends javax.swing.JFrame {
 
-    private JogoMemoriaIniciante jpf;
+    private JogoMemoriaFacil jpf;
     private JogoMemoriaIntermediario jpi;
     private JogoMemoriaDificil jpd;
     private Tabuleiro jpt = new Tabuleiro();
@@ -29,7 +30,7 @@ public class JogoMemoriaPrincipal extends javax.swing.JFrame {
     public JogoMemoriaPrincipal() {
         initComponents();
         controle = new JogoMemoriaCtrl();
-        jpf = new JogoMemoriaIniciante(controle);
+        jpf = new JogoMemoriaFacil(controle);
         jpi = new JogoMemoriaIntermediario(controle);
         jpd = new JogoMemoriaDificil(controle);
 
@@ -170,23 +171,29 @@ public class JogoMemoriaPrincipal extends javax.swing.JFrame {
         if (nivel.equals("Iniciante")) {
             nivelSelec = controle.FACIL;
         }
-        if (((String) cmbNivel.getSelectedItem()).equals("Intermediario")) {
+        if (((String) cmbNivel.getSelectedItem()).equals("Intermediário")) {
             nivelSelec = controle.INTERMEDIARIO;
         }
-        if (nivel.equals("Dificil")) {
+        if (nivel.equals("Difícil")) {
             nivelSelec = controle.DIFICIL;
         }
 
         int tempoL = (((Integer) spnTempo.getValue()).intValue());
-
-        
+  
         sppPrincipal.setRightComponent(jpt);
-        
-        
+                
         controle.iniciarPartida(nivelSelec, tempoL);
         mostrarTabuleiro(true);
 
-        this.repaint();
+        int resp = JOptionPane.showConfirmDialog(this, "Você esta pronto?" , "Confime" , JOptionPane.YES_NO_OPTION);
+        
+        if(resp == JOptionPane.YES_OPTION){
+            mostrarTabuleiro(false);
+        } else {
+            sppPrincipal.setRightComponent(pnlIntroducao);
+        }
+        
+        
     }//GEN-LAST:event_btnIniciarActionPerformed
 
     private void cmbNivelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmbNivelActionPerformed

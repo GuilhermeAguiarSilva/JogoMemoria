@@ -20,7 +20,7 @@ public class JogoMemoriaCtrl {
     public static final int JOGADA_INVALIDA = 2; //Referência a valor que representa jogada inválida. Ou seja, com pelo menos uma posição já ocupada.
 
     public static final int MAX_IMAGENS_PARTIDA = 18; //Máx. de imagens usadas nas partidas
-    public static final int QTDE_IMAGENS_DISPONIVEIS = 20; //Quantidade de imagens disponíveis para o jogo (Sempre maior do que MAX_PECAS_PARTIDA)
+    public static final int QTDE_IMAGENS_DISPONIVEIS = 18; //Quantidade de imagens disponíveis para o jogo (Sempre maior do que MAX_PECAS_PARTIDA)
 
     public static final int QTDE_IMGS_FACIL = 8;
     public static final int QTDE_IMGS_INTERMEDIARIO = 18;
@@ -55,8 +55,8 @@ public class JogoMemoriaCtrl {
     private PecaTabuleiro tabuleiro[][] = new PecaTabuleiro[MAX_LIN_DIFICIL][MAX_COL_DIFICIL]; //Matriz que implementa o tabuleiro do jogo onde as imagens estão distribuidas. Considera o tamanho máximo possível de ser usado que é para o nível difícil. Cada célula contém um número referente à imagem que ocupará a posição.
     private int tabControle[][] = new int[MAX_LIN_DIFICIL][MAX_COL_DIFICIL]; //Será usada em conjunto com a matriz tabuleiro[][]. Implementa um controle das jogadas já realizadas e acertadas. Ajuda a atulizar a tela indicando que imagem estará virada (Valor 0 na célula) e que imagem estará aberta (Valor 1). Considera o tamanho máximo possível de ser usado que é para o nível difícil.
     private int qtdePcasPorImg = INDEFINIDO;
-    /* ----------------------- MÉTODOS -----------------------*/
 
+    /* ----------------------- MÉTODOS -----------------------*/
     /**
      * Construtor para a classe
      */
@@ -84,22 +84,22 @@ public class JogoMemoriaCtrl {
         if (nivel == FACIL) {
             setNivelAtual(FACIL);
             qtdImgsPartida = QTDE_IMGS_FACIL;
-            linhaMax = MAX_LIN_FACIL;
-            colunaMax = MAX_COL_FACIL;
+            linhaMax = MAX_LIN_FACIL - 1;
+            colunaMax = MAX_COL_FACIL - 1;
             qtdePcasPorImg = 2;
         } else {
             if (nivel == INTERMEDIARIO) {
                 setNivelAtual(INTERMEDIARIO);
                 qtdImgsPartida = QTDE_IMGS_INTERMEDIARIO;
-                linhaMax = MAX_LIN_INTERMEDIARIO;
-                colunaMax = MAX_COL_INTERMEDIARIO;
+                linhaMax = MAX_LIN_INTERMEDIARIO - 1;
+                colunaMax = MAX_COL_INTERMEDIARIO - 1;
                 qtdePcasPorImg = 2;
             } else {
                 if (nivel == DIFICIL) {
                     setNivelAtual(DIFICIL);
                     qtdImgsPartida = QTDE_IMGS_DIFICIL;
-                    linhaMax = MAX_LIN_DIFICIL;
-                    colunaMax = MAX_COL_DIFICIL;
+                    linhaMax = MAX_LIN_DIFICIL - 1;
+                    colunaMax = MAX_COL_DIFICIL - 1;
                     qtdePcasPorImg = 3;
                 } else {
                     System.out.println("ERRO"); //lançar exception
@@ -108,8 +108,10 @@ public class JogoMemoriaCtrl {
         }
         sortearImagensPartida();
 
-        preencherTabuleiro(nivel);
-       
+        preencherTabuleiro();
+
+        debugTabuleiro();
+
     }
     //atividade 3
 
@@ -138,13 +140,26 @@ public class JogoMemoriaCtrl {
             for (int k = 0; k < qtdeSorteadas; k++) {
                 if (imgsPartida[k] == i) {
                     achou = true;
+                    break;
                 }
-                break;
             }
             if (!achou) {
                 imgsPartida[qtdeSorteadas] = i;
                 qtdeSorteadas++;
             }
+        }
+    }
+
+    private void debugTabuleiro() {
+        for (int l = 0; l < qtdImgsPartida; l++) {
+            System.out.print(imgsPartida[l] + " ");
+        }
+        System.out.println();
+        for (int l = 0; l <= linhaMax; l++) {
+            for (int c = 0; c <= colunaMax; c++) {
+                System.out.print(tabuleiro[l][c].getIdImagem() + " ");
+            }
+            System.out.println();
         }
     }
 
@@ -155,7 +170,7 @@ public class JogoMemoriaCtrl {
     }
 
     //atividade 4
-    private void preencherTabuleiro(int nivel) {
+    private void preencherTabuleiro() {
         int num = 0;
 
         limparTabuleiro();
@@ -171,8 +186,8 @@ public class JogoMemoriaCtrl {
                 int c;
                 boolean sucesso = false;
                 while (!sucesso) {
-                    l = obterNumSorteado(0, linhaMax-1);
-                    c = obterNumSorteado(0, colunaMax-1);
+                    l = obterNumSorteado(0, linhaMax);
+                    c = obterNumSorteado(0, colunaMax);
                     if (getTabuleiro()[l][c] == null) {
                         p.setLinha(l);
                         p.setColuna(c);
@@ -193,12 +208,25 @@ public class JogoMemoriaCtrl {
         }
     }
 
+    /**
+     * Tenta realizar uma jogada, envolvendo duas peças de tabuleiro. 
+     * Os objetos PecaTabuleiro possuem atributos que representam uma posição 
+     * (célula) da matriz referente ao tabuleiro. Estes atributos são Linha e coluna
+     * referentes à posição da peça no tabuleiro.
+     * A classe PecaTabuleiro do pacote jogomemoria.model representa o tipo dos
+     * parâmetros.
+     * @param pt1 Primeira peça de tabuleiro (PecaTabuleiro) selecionada.
+     * @param pt2 Segunda peça de tabuleiro (PecaTabuleiro) selecionada.
+     * @return int Inteiro representando o resultado da tentativa de jogada. Refere-se a JOGADA_CERTA, JOGADA_ERRADA ou JOGADA_INVALIDA. 
+     */
+    
     public int realizarJogada(PecaTabuleiro pt1, PecaTabuleiro pt2) {
         int resultado = JOGADA_ERRADA;  //O resultado inicia pessimista. Estratégia definida pelo professor.
         if (pt1.getIdImagem() == pt2.getIdImagem()) {
-            if ((pt1.getLinha() < linhaMax) && (pt1.getColuna() < colunaMax)
-                    && (pt2.getLinha() < linhaMax) && (pt2.getColuna() < colunaMax)) {
-                if ((!pt1.isVirada()) && (!pt2.isVirada())) {
+            if ((pt1.getLinha() <= linhaMax) && (pt1.getColuna() <= colunaMax)
+                    && (pt2.getLinha() <= linhaMax) && (pt2.getColuna() <= colunaMax)) {
+                if ((!pt1.isVirada()) && (!pt2.isVirada()) &&
+                        (pt1.getNumero()!= pt2.getNumero())) {
                     resultado = JOGADA_CERTA;
                     setPontuacaoAtual(getPontuacaoAtual() + 1);
                     pt1.setVirada(true);
