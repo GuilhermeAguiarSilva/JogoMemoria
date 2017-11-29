@@ -437,43 +437,43 @@ public class JogoMemoriaFacil extends javax.swing.JPanel {
     }// </editor-fold>//GEN-END:initComponents
 
     private void lblImg23MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblImg23MouseClicked
-        // TODO add your handling code here:
+        tentarJogada(2, 3, lblImg23);
     }//GEN-LAST:event_lblImg23MouseClicked
 
     private void lblImg13MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblImg13MouseClicked
-        // TODO add your handling code here:
+        tentarJogada(1, 3, lblImg13);
     }//GEN-LAST:event_lblImg13MouseClicked
 
     private void lblImg03MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblImg03MouseClicked
-        // TODO add your handling code here:
+        tentarJogada(0, 3, lblImg03);
     }//GEN-LAST:event_lblImg03MouseClicked
 
     private void lblImg32MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblImg32MouseClicked
-        // TODO add your handling code here:
+       tentarJogada(3, 2, lblImg32);
     }//GEN-LAST:event_lblImg32MouseClicked
 
     private void lblImg12MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblImg12MouseClicked
-        // TODO add your handling code here:
+        tentarJogada(1, 2, lblImg12);
     }//GEN-LAST:event_lblImg12MouseClicked
 
     private void lblImg22MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblImg22MouseClicked
-        // TODO add your handling code here:
+        tentarJogada(2, 2, lblImg22);
     }//GEN-LAST:event_lblImg22MouseClicked
 
     private void lblImg02MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblImg02MouseClicked
-        // TODO add your handling code here:
+        tentarJogada(0, 2, lblImg02);
     }//GEN-LAST:event_lblImg02MouseClicked
 
     private void lblImg21MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblImg21MouseClicked
-        // TODO add your handling code here:
+        tentarJogada(2, 1, lblImg21);
     }//GEN-LAST:event_lblImg21MouseClicked
 
     private void lblImg31MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblImg31MouseClicked
-        // TODO add your handling code here:
+        tentarJogada(3, 1, lblImg31);
     }//GEN-LAST:event_lblImg31MouseClicked
 
     private void lblImg11MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblImg11MouseClicked
-        // TODO add your handling code here:
+        tentarJogada(1, 1, lblImg11);
     }//GEN-LAST:event_lblImg11MouseClicked
 
     private void lblImg01MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblImg01MouseClicked
@@ -482,15 +482,15 @@ public class JogoMemoriaFacil extends javax.swing.JPanel {
     }//GEN-LAST:event_lblImg01MouseClicked
 
     private void lblImg30MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblImg30MouseClicked
-        // TODO add your handling code here:
+        tentarJogada(3, 0, lblImg30);
     }//GEN-LAST:event_lblImg30MouseClicked
 
     private void lblImg20MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblImg20MouseClicked
-        // TODO add your handling code here:
+        tentarJogada(2, 0, lblImg20);
     }//GEN-LAST:event_lblImg20MouseClicked
 
     private void lblImg10MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblImg10MouseClicked
-        // TODO add your handling code here:
+        tentarJogada(1, 0, lblImg10);
     }//GEN-LAST:event_lblImg10MouseClicked
 
     private void lblImg00MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblImg00MouseClicked
@@ -499,7 +499,7 @@ public class JogoMemoriaFacil extends javax.swing.JPanel {
     }//GEN-LAST:event_lblImg00MouseClicked
 
     private void lblImg33MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblImg33MouseClicked
-        // TODO add your handling code here:
+        tentarJogada(3, 3, lblImg33);
     }//GEN-LAST:event_lblImg33MouseClicked
 
 

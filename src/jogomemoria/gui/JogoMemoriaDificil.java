@@ -6,6 +6,8 @@
 package jogomemoria.gui;
 
 import javax.swing.ImageIcon;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import jogomemoria.control.JogoMemoriaCtrl;
 import jogomemoria.model.PecaTabuleiro;
 
@@ -16,6 +18,10 @@ import jogomemoria.model.PecaTabuleiro;
 public class JogoMemoriaDificil extends javax.swing.JPanel {
 
     private JogoMemoriaCtrl controle;
+     private int qntdeSelecionados = 0;
+    private PecaTabuleiro ptSel1;
+    private PecaTabuleiro ptSel2;
+     private PecaTabuleiro ptSel3;
 
     public JogoMemoriaDificil(JogoMemoriaCtrl ctrl) {
         initComponents();
@@ -457,6 +463,33 @@ public class JogoMemoriaDificil extends javax.swing.JPanel {
             (getLblImg58()).setIcon(imgDuvida);
         }
     } 
+    
+      private void tentarJogada(int l, int c, JLabel lbl) {
+        PecaTabuleiro pt = controle.getTabuleiro()[l][c];
+        int idImg = pt.getIdImagem();
+        ImageIcon img = new ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm" + idImg + ".png"));
+        lbl.setIcon(img);
+        if (qntdeSelecionados == 0) {
+            qntdeSelecionados++;
+            ptSel1 = pt;
+        } else {
+            if (qntdeSelecionados == 1) {
+                ptSel2 = pt;
+                int res = controle.realizarJogada(ptSel1, ptSel2);
+                if (res == controle.JOGADA_CERTA) {
+                    JOptionPane.showMessageDialog(this, "Cabra bom!!!", "Muito Bem", JOptionPane.INFORMATION_MESSAGE);
+                } else if (res == controle.JOGADA_ERRADA) {
+                    JOptionPane.showMessageDialog(this, "Ops, Falho!!!", "Errou", JOptionPane.INFORMATION_MESSAGE);
+                } else if (res == controle.JOGADA_INVALIDA) {
+                    JOptionPane.showMessageDialog(this, "Se liga Cabra !!!", "Jogada Invalida", JOptionPane.ERROR_MESSAGE);
+                }
+                mostrar(false);
+            }
+            qntdeSelecionados = 0;
+            ptSel1= null;
+            ptSel2= null;
+        }
+    }
 
     /**
      * @return the lbImg32

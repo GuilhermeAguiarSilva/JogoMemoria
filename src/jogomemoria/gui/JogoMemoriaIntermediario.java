@@ -6,17 +6,20 @@
 package jogomemoria.gui;
 
 import javax.swing.ImageIcon;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import jogomemoria.control.JogoMemoriaCtrl;
 import jogomemoria.model.PecaTabuleiro;
 
 /**
- *
  * @author Aluno
  */
 public class JogoMemoriaIntermediario extends javax.swing.JPanel {
 
     private JogoMemoriaCtrl controle;
-
+    private int qntdeSelecionados = 0;
+    private PecaTabuleiro ptSel1;
+    private PecaTabuleiro ptSel2;
     /**
      * Creates new form JogoMemoriaIntermediario2
      */
@@ -317,6 +320,33 @@ public class JogoMemoriaIntermediario extends javax.swing.JPanel {
         } else {
             (getLblimg55()).setIcon(imgDuvida);
 
+        }
+    }
+    
+        private void tentarJogada(int l, int c, JLabel lbl) {
+        PecaTabuleiro pt = controle.getTabuleiro()[l][c];
+        int idImg = pt.getIdImagem();
+        ImageIcon img = new ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm" + idImg + ".png"));
+        lbl.setIcon(img);
+        if (qntdeSelecionados == 0) {
+            qntdeSelecionados++;
+            ptSel1 = pt;
+        } else {
+            if (qntdeSelecionados == 1) {
+                ptSel2 = pt;
+                int res = controle.realizarJogada(ptSel1, ptSel2);
+                if (res == controle.JOGADA_CERTA) {
+                    JOptionPane.showMessageDialog(this, "Cabra bom!!!", "Muito Bem", JOptionPane.INFORMATION_MESSAGE);
+                } else if (res == controle.JOGADA_ERRADA) {
+                    JOptionPane.showMessageDialog(this, "Ops, Falho!!!", "Errou", JOptionPane.INFORMATION_MESSAGE);
+                } else if (res == controle.JOGADA_INVALIDA) {
+                    JOptionPane.showMessageDialog(this, "Se liga Cabra !!!", "Jogada Invalida", JOptionPane.ERROR_MESSAGE);
+                }
+                mostrar(false);
+            }
+            qntdeSelecionados = 0;
+            ptSel1= null;
+            ptSel2= null;
         }
     }
 
@@ -1163,147 +1193,147 @@ public class JogoMemoriaIntermediario extends javax.swing.JPanel {
     }// </editor-fold>//GEN-END:initComponents
 
     private void lblimg00MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg00MouseClicked
-        // TODO add your handling code here:
+        tentarJogada(0, 0, lblimg00);
     }//GEN-LAST:event_lblimg00MouseClicked
 
     private void lblimg01MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg01MouseClicked
-        // TODO add your handling code here:
+         tentarJogada(0, 1, lblimg01);
     }//GEN-LAST:event_lblimg01MouseClicked
 
     private void lblimg03MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg03MouseClicked
-        // TODO add your handling code here:
+         tentarJogada(0, 3, lblimg03);
     }//GEN-LAST:event_lblimg03MouseClicked
 
     private void lblimg04MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg04MouseClicked
-        // TODO add your handling code here:
+         tentarJogada(0, 4, lblimg04);
     }//GEN-LAST:event_lblimg04MouseClicked
 
     private void lblimg05MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg05MouseClicked
-        // TODO add your handling code here:
+         tentarJogada(0, 5, lblimg05);
     }//GEN-LAST:event_lblimg05MouseClicked
 
     private void lblimg10MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg10MouseClicked
-        // TODO add your handling code here:
+         tentarJogada(1, 0, lblimg10);
     }//GEN-LAST:event_lblimg10MouseClicked
 
     private void lblimg02MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg02MouseClicked
-        // TODO add your handling code here:
+        tentarJogada(0, 2, lblimg02);
     }//GEN-LAST:event_lblimg02MouseClicked
 
     private void lblimg11MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg11MouseClicked
-        // TODO add your handling code here:
+        tentarJogada(1, 1, lblimg11);
     }//GEN-LAST:event_lblimg11MouseClicked
 
     private void lblimg12MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg12MouseClicked
-        // TODO add your handling code here:
+        tentarJogada(1, 2, lblimg12);
     }//GEN-LAST:event_lblimg12MouseClicked
 
     private void lblimg13MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg13MouseClicked
-        // TODO add your handling code here:
+        tentarJogada(1, 3, lblimg13);
     }//GEN-LAST:event_lblimg13MouseClicked
 
     private void lblimg14MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg14MouseClicked
-        // TODO add your handling code here:
+        tentarJogada(1, 4, lblimg14);
     }//GEN-LAST:event_lblimg14MouseClicked
 
     private void lblimg15MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg15MouseClicked
-        // TODO add your handling code here:
+        tentarJogada(1, 5, lblimg15);
     }//GEN-LAST:event_lblimg15MouseClicked
 
     private void lblimg20MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg20MouseClicked
-        // TODO add your handling code here:
+        tentarJogada(2, 0, lblimg20);
     }//GEN-LAST:event_lblimg20MouseClicked
 
     private void lblimg24MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg24MouseClicked
-        // TODO add your handling code here:
+       tentarJogada(2, 4, lblimg24);
     }//GEN-LAST:event_lblimg24MouseClicked
 
     private void lblimg25MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg25MouseClicked
-        // TODO add your handling code here:
+        tentarJogada(2, 5, lblimg25);
     }//GEN-LAST:event_lblimg25MouseClicked
 
     private void lblimg30MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg30MouseClicked
-        // TODO add your handling code here:
+       tentarJogada(3, 0, lblimg30);
     }//GEN-LAST:event_lblimg30MouseClicked
 
     private void lblimg31MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg31MouseClicked
-        // TODO add your handling code here:
+        tentarJogada(3, 1, lblimg31);
     }//GEN-LAST:event_lblimg31MouseClicked
 
     private void lblimg32MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg32MouseClicked
-        // TODO add your handling code here:
+        tentarJogada(3, 2, lblimg32);
     }//GEN-LAST:event_lblimg32MouseClicked
 
     private void lblimg21MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg21MouseClicked
-        // TODO add your handling code here:
+        tentarJogada(2, 1, lblimg21);
     }//GEN-LAST:event_lblimg21MouseClicked
 
     private void lblimg33MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg33MouseClicked
-        // TODO add your handling code here:
+        tentarJogada(3, 3, lblimg33);
     }//GEN-LAST:event_lblimg33MouseClicked
 
     private void lblimg34MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg34MouseClicked
-        // TODO add your handling code here:
+        tentarJogada(3, 4, lblimg34);
     }//GEN-LAST:event_lblimg34MouseClicked
 
     private void lblimg35MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg35MouseClicked
-        // TODO add your handling code here:
+        tentarJogada(3, 5, lblimg35);
     }//GEN-LAST:event_lblimg35MouseClicked
 
     private void lblimg40MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg40MouseClicked
-        // TODO add your handling code here:
+        tentarJogada(4, 0, lblimg40);
     }//GEN-LAST:event_lblimg40MouseClicked
 
     private void lblimg41MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg41MouseClicked
-        // TODO add your handling code here:
+        tentarJogada(4, 1, lblimg41);
     }//GEN-LAST:event_lblimg41MouseClicked
 
     private void lblimg22MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg22MouseClicked
-        // TODO add your handling code here:
+        tentarJogada(2, 2, lblimg22);
     }//GEN-LAST:event_lblimg22MouseClicked
 
     private void lblimg42MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg42MouseClicked
-        // TODO add your handling code here:
+        tentarJogada(4, 2, lblimg42);
     }//GEN-LAST:event_lblimg42MouseClicked
 
     private void lblimg43MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg43MouseClicked
-        // TODO add your handling code here:
+        tentarJogada(4, 3, lblimg43);
     }//GEN-LAST:event_lblimg43MouseClicked
 
     private void lblimg44MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg44MouseClicked
-        // TODO add your handling code here:
+        tentarJogada(4, 4, lblimg44);
     }//GEN-LAST:event_lblimg44MouseClicked
 
     private void lblimg45MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg45MouseClicked
-        // TODO add your handling code here:
+        tentarJogada(4, 5, lblimg45);
     }//GEN-LAST:event_lblimg45MouseClicked
 
     private void lblimg50MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg50MouseClicked
-        // TODO add your handling code here:
+        tentarJogada(5, 0, lblimg50);
     }//GEN-LAST:event_lblimg50MouseClicked
 
     private void lblimg23MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg23MouseClicked
-        // TODO add your handling code here:
+       tentarJogada(2, 3, lblimg23);
     }//GEN-LAST:event_lblimg23MouseClicked
 
     private void lblimg51MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg51MouseClicked
-        // TODO add your handling code here:
+        tentarJogada(5, 1, lblimg51);
     }//GEN-LAST:event_lblimg51MouseClicked
 
     private void lblimg52MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg52MouseClicked
-        // TODO add your handling code here:
+        tentarJogada(5, 2, lblimg52);
     }//GEN-LAST:event_lblimg52MouseClicked
 
     private void lblimg53MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg53MouseClicked
-        // TODO add your handling code here:
+       tentarJogada(5, 3, lblimg53);
     }//GEN-LAST:event_lblimg53MouseClicked
 
     private void lblimg54MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg54MouseClicked
-        // TODO add your handling code here:
+       tentarJogada(5, 4, lblimg54);
     }//GEN-LAST:event_lblimg54MouseClicked
 
     private void lblimg55MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblimg55MouseClicked
-        // TODO add your handling code here:
+       tentarJogada(5, 5, lblimg55);
     }//GEN-LAST:event_lblimg55MouseClicked
 
 
