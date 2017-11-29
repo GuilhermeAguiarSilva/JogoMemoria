@@ -7,6 +7,7 @@ package jogomemoria.gui;
 
 import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
+import javax.swing.JPanel;
 import jogomemoria.control.JogoMemoriaCtrl;
 import jogomemoria.model.PecaTabuleiro;
 
@@ -201,7 +202,8 @@ public class JogoMemoriaPrincipal extends javax.swing.JFrame {
     }//GEN-LAST:event_cmbNivelActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
+        controle.setJogoIniciado(false);
+        mostrarTabuleiro(pnlIntroducao);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
@@ -277,7 +279,7 @@ public class JogoMemoriaPrincipal extends javax.swing.JFrame {
 
             jpt.setTabuleiro(jpd);
             jpd.mostrar(inicioJogo);
-            this.setSize(1600, 980);
+            this.setSize(1100, 700);
         }
     }
         /**
@@ -292,5 +294,9 @@ public class JogoMemoriaPrincipal extends javax.swing.JFrame {
      */
     public void setSppPrincipal(javax.swing.JSplitPane sppPrincipal) {
         this.sppPrincipal = sppPrincipal;
+    }
+
+    private void mostrarTabuleiro(JPanel pnl) {
+        sppPrincipal.setRightComponent(pnl);
     }
 }

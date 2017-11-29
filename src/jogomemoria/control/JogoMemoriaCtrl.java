@@ -209,24 +209,24 @@ public class JogoMemoriaCtrl {
     }
 
     /**
-     * Tenta realizar uma jogada, envolvendo duas peças de tabuleiro. 
-     * Os objetos PecaTabuleiro possuem atributos que representam uma posição 
-     * (célula) da matriz referente ao tabuleiro. Estes atributos são Linha e coluna
-     * referentes à posição da peça no tabuleiro.
-     * A classe PecaTabuleiro do pacote jogomemoria.model representa o tipo dos
-     * parâmetros.
+     * Tenta realizar uma jogada, envolvendo duas peças de tabuleiro. Os objetos
+     * PecaTabuleiro possuem atributos que representam uma posição (célula) da
+     * matriz referente ao tabuleiro. Estes atributos são Linha e coluna
+     * referentes à posição da peça no tabuleiro. A classe PecaTabuleiro do
+     * pacote jogomemoria.model representa o tipo dos parâmetros.
+     *
      * @param pt1 Primeira peça de tabuleiro (PecaTabuleiro) selecionada.
      * @param pt2 Segunda peça de tabuleiro (PecaTabuleiro) selecionada.
-     * @return int Inteiro representando o resultado da tentativa de jogada. Refere-se a JOGADA_CERTA, JOGADA_ERRADA ou JOGADA_INVALIDA. 
+     * @return int Inteiro representando o resultado da tentativa de jogada.
+     * Refere-se a JOGADA_CERTA, JOGADA_ERRADA ou JOGADA_INVALIDA.
      */
-    
     public int realizarJogada(PecaTabuleiro pt1, PecaTabuleiro pt2) {
         int resultado = JOGADA_ERRADA;  //O resultado inicia pessimista. Estratégia definida pelo professor.
         if (pt1.getIdImagem() == pt2.getIdImagem()) {
             if ((pt1.getLinha() <= linhaMax) && (pt1.getColuna() <= colunaMax)
                     && (pt2.getLinha() <= linhaMax) && (pt2.getColuna() <= colunaMax)) {
-                if ((!pt1.isVirada()) && (!pt2.isVirada()) &&
-                        (pt1.getNumero()!= pt2.getNumero())) {
+                if ((!pt1.isVirada()) && (!pt2.isVirada())
+                        && (pt1.getNumero() != pt2.getNumero())) {
                     resultado = JOGADA_CERTA;
                     setPontuacaoAtual(getPontuacaoAtual() + 1);
                     pt1.setVirada(true);
@@ -299,6 +299,17 @@ public class JogoMemoriaCtrl {
      */
     public void setPontuacaoAtual(int pontuacaoAtual) {
         this.pontuacaoAtual = pontuacaoAtual;
+        if (pontuacaoAtual > OURO) {
+            tabRecordes[getNivelAtual()][OURO] = pontuacaoAtual;
+        } else {
+            if (pontuacaoAtual > PRATA) {
+                tabRecordes[getNivelAtual()][PRATA] = pontuacaoAtual;
+            } else {
+                if (pontuacaoAtual > BRONZE) {
+                    tabRecordes[getNivelAtual()][BRONZE] = pontuacaoAtual;
+                }
+            }
+        }
     }
 
     /**

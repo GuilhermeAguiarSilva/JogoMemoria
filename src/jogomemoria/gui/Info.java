@@ -31,6 +31,9 @@ public class Info extends javax.swing.JPanel {
         lblimgouro = new javax.swing.JLabel();
         lblimgprata = new javax.swing.JLabel();
         lilimgbronze = new javax.swing.JLabel();
+        pontOuro = new javax.swing.JLabel();
+        pontPrata = new javax.swing.JLabel();
+        pontBronze = new javax.swing.JLabel();
 
         jLabel1.setText("Recordes");
 
@@ -42,12 +45,23 @@ public class Info extends javax.swing.JPanel {
         lilimgbronze.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/bronze.png"))); // NOI18N
         lilimgbronze.setText("jLabel2");
 
+        pontOuro.setText("jLabel2");
+
+        pontPrata.setText("jLabel2");
+
+        pontBronze.setText("jLabel2");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(56, 56, 56)
+                .addGap(16, 16, 16)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(pontOuro)
+                    .addComponent(pontPrata)
+                    .addComponent(pontBronze))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(lilimgbronze, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(lblimgprata, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -60,12 +74,21 @@ public class Info extends javax.swing.JPanel {
             .addGroup(layout.createSequentialGroup()
                 .addGap(6, 6, 6)
                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(lblimgouro)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(lblimgouro))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(55, 55, 55)
+                        .addComponent(pontOuro)))
                 .addGap(18, 18, 18)
-                .addComponent(lblimgprata, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lblimgprata, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pontPrata))
                 .addGap(18, 18, 18)
-                .addComponent(lilimgbronze, javax.swing.GroupLayout.PREFERRED_SIZE, 84, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lilimgbronze, javax.swing.GroupLayout.PREFERRED_SIZE, 84, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pontBronze))
                 .addContainerGap(67, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
@@ -76,5 +99,8 @@ public class Info extends javax.swing.JPanel {
     private javax.swing.JLabel lblimgouro;
     private javax.swing.JLabel lblimgprata;
     private javax.swing.JLabel lilimgbronze;
+    private javax.swing.JLabel pontBronze;
+    private javax.swing.JLabel pontOuro;
+    private javax.swing.JLabel pontPrata;
     // End of variables declaration//GEN-END:variables
 }
