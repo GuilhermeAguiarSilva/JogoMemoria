@@ -475,6 +475,11 @@ public class JogoMemoriaDificil extends javax.swing.JPanel {
         } else {
             if (qntdeSelecionados == 1) {
                 ptSel2 = pt;
+                 qntdeSelecionados++;
+                } else {
+            if(qntdeSelecionados == 2){
+                 ptSel3 = pt;
+            
                 int res = controle.realizarJogada(ptSel1, ptSel2);
                 if (res == controle.JOGADA_CERTA) {
                     JOptionPane.showMessageDialog(this, "Cabra bom!!!", "Muito Bem", JOptionPane.INFORMATION_MESSAGE);
