@@ -130,6 +130,13 @@ public class JogoMemoriaCtrl {
         return n;
     }
 
+    
+      /**
+     * Realiza o sorteio de imagens para a partida, conforme índices de 1 até
+     * MAX_PECAS_DISPONIVEIS. Se MAX_PECAS_DISPONIVEIS = 100 então sorteia 
+     * o identificador de cada imagem até obter a quantidade de imagens 
+     * necessárias para a partida (qtdImgsPartida)
+     */
     private void sortearImagensPartida() {
         boolean achou = false;
         limparImgsPartida();
@@ -163,13 +170,22 @@ public class JogoMemoriaCtrl {
         }
     }
 
+     /**
+    * Limpa o vetor de imagens usadas na partida (imgspartida) colocando 0 (ZERO) 
+    * em cada célula e indicando que está vazia.
+    * É usado como parte da iniciação de cada partida.
+    */  
     private void limparImgsPartida() { //dois for igual matriz
         for (int i = 0; i < MAX_IMAGENS_PARTIDA; i++) {
             imgsPartida[i] = 0;
         }
     }
 
-    //atividade 4
+    /**
+     * Preenche o tabuleiro com duplas ou trios das imagens sorteadas, dependendo
+     * do nível definido para a partida.
+     */
+    
     private void preencherTabuleiro() {
         int num = 0;
 
@@ -199,6 +215,10 @@ public class JogoMemoriaCtrl {
         }
     }
 
+     /**
+    * Limpa os tabuleiros (Tabuleiro de imagens e o de controle) colocando 0 (ZERO) em cada célula, indicando que está vazia.
+    * É usado como parte da iniciação de cada partida.
+    */   
     private void limparTabuleiro() {
         for (int l = 0; l < MAX_LIN_DIFICIL; l++) {
             for (int c = 0; c < MAX_COL_DIFICIL; c++) {
@@ -238,7 +258,18 @@ public class JogoMemoriaCtrl {
         }
         return resultado;
     }
-
+    
+       /**
+     * Tenta realizar uma jogada, envolvendo duas peças de tabuleiro. 
+     * Os objetos PecaTabuleiro possuem atributos que representam uma posição 
+     * (célula) da matriz referente ao tabuleiro. Estes atributos são Linha e coluna
+     * referentes à posição da peça no tabuleiro.
+     * A classe PecaTabuleiro do pacote jogomemoria.model representa o tipo dos
+     * parâmetros.
+     * @param pt1 Primeira peça de tabuleiro (PecaTabuleiro) selecionada.
+     * @param pt2 Segunda peça de tabuleiro (PecaTabuleiro) selecionada.
+     * @return int Inteiro representando o resultado da tentativa de jogada. Refere-se a JOGADA_CERTA, JOGADA_ERRADA ou JOGADA_INVALIDA. 
+     */
     public int realizarJogada(PecaTabuleiro pt1, PecaTabuleiro pt2, PecaTabuleiro pt3) {
         int resultado = JOGADA_ERRADA;  //O resultado inicia pessimista. Estratégia definida pelo professor.
         if (pt1.getIdImagem() == pt2.getIdImagem() && pt1.getIdImagem() == pt3.getIdImagem()) {
